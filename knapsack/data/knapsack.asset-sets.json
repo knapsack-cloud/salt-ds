@@ -1,11 +1,37 @@
 {
-  "globalAssetSetIds": ["salt"],
+  "globalAssetSetIds": [
+    "mode--light-density--low",
+    "mode--dark-density--low",
+    "mode--light-density--high",
+    "mode--dark-density--high"
+  ],
   "allAssetSets": {
-    "salt": {
-      "id": "salt",
-      "title": "Salt",
+    "mode--light-density--low": {
+      "id": "mode--light-density--low",
+      "title": "mode--light-density--low",
       "inlineCss": "",
-      "inlineJs": "",
+      "inlineJs": "document.body.setAttribute('mode', 'light'); document.body.setAttribute('density', 'low');",
+      "assets": []
+    },
+    "mode--dark-density--low": {
+      "id": "mode--dark-density--low",
+      "title": "mode--dark-density--low",
+      "inlineCss": "",
+      "inlineJs": "document.body.setAttribute('mode', 'dark');  document.body.setAttribute('density', 'low');",
+      "assets": []
+    },
+    "mode--light-density--high": {
+      "id": "mode--light-density--high",
+      "title": "mode--light-density--high",
+      "inlineCss": "",
+      "inlineJs": "document.body.setAttribute('mode', 'light'); document.body.setAttribute('density', 'high');",
+      "assets": []
+    },
+    "mode--dark-density--high": {
+      "id": "mode--dark-density--high",
+      "title": "mode--dark-density--high",
+      "inlineCss": "",
+      "inlineJs": "document.body.setAttribute('mode', 'dark');  document.body.setAttribute('density', 'high');",
       "assets": []
     }
   }
