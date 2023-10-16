@@ -5,12 +5,8 @@
       "id": "salt",
       "title": "Salt",
       "inlineCss": "",
-      "inlineJs": "document.body.classList.add('salt-theme');",
-      "assets": [
-        {
-          "src": "../../dist/salt-ds-theme/index.css"
-        }
-      ]
+      "inlineJs": "",
+      "assets": []
     }
   }
 }

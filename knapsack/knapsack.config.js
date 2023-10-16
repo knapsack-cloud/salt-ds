@@ -8,30 +8,36 @@ module.exports = configureKnapsack({
   dist: join(__dirname, "./dist"),
   public: join(__dirname, "./public"),
   version,
-  templateRenderers: [new KnapsackReactRenderer({
-    webpackConfig: {
-      module: {
-        rules: [
-          {
-            test: /\.(ts|tsx)$/,
-            use: [
-              {
-                loader: "babel-loader",
-                options: {
-                  presets: ["@babel/preset-typescript", "@babel/preset-react"],
+  templateRenderers: [
+    new KnapsackReactRenderer({
+      demoWrapperPath: join(__dirname, "./demo-wrapper.tsx"),
+      webpackConfig: {
+        module: {
+          rules: [
+            {
+              test: /\.(ts|tsx)$/,
+              use: [
+                {
+                  loader: "babel-loader",
+                  options: {
+                    presets: [
+                      "@babel/preset-typescript",
+                      "@babel/preset-react",
+                    ],
+                  },
                 },
-              },
-            ],
-          },
-          // CSS loader rule
-          {
-            test: /\.css$/,
-            use: ['style-loader', 'css-loader'],
-          },
-        ],
+              ],
+            },
+            // CSS loader rule
+            {
+              test: /\.css$/,
+              use: ["style-loader", "css-loader"],
+            },
+          ],
+        },
       },
-    }
-  })],
+    }),
+  ],
   plugins: [],
   cloud: {
     siteId: "salt",
