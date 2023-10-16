@@ -1,0 +1,18 @@
+id: homepage
+title: Welcome to Salt
+blockIds: []
+settings:
+  pageHeader:
+    backgroundColor:
+      type: value
+      colorValue: "#161616"
+    textColorTitle:
+      colorValue: "#FFFFFF"
+      type: value
+    textColorDescription:
+      colorValue: "#FFFFFF"
+      type: value
+    size: full
+    backgroundImage: https://knapsack.imgix.net/site/salt/scr-20231013-kde-yxwfzi5fqb.png
+  hideTableOfContents: true
+description: ""
