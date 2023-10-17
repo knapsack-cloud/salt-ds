@@ -69,7 +69,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           yarn cache clean
-          yarn install --cache-folder ~/.cache/yarn --immutable
+          yarn install --immutable
         env:
           CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
       - name: Run Full Build
