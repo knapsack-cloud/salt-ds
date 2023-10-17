@@ -19,6 +19,10 @@ byId:
     name: Components
     parentId: root
     path: ""
+  grid:
+    id: grid
+    parentId: components
+    path: /pattern/grid
   text:
     id: text
     parentId: components
@@ -29,3 +33,4 @@ order:
   - button
   - card
   - text
+  - grid
