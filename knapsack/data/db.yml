@@ -21,6 +21,33 @@ demos:
       title: Main
       type: data
       width: 324
+    _2PSFV0BFV:
+      data:
+        props: {}
+        slots: {}
+      id: _2PSFV0BFV
+      patternId: panel
+      templateId: react-Veo93IBHtY
+      title: Main
+      type: data
+    tdaOkPjdv_:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Some words
+              type: text
+            - demoId: KyCPvfifwG
+              patternId: button
+              templateId: react-4z44n8JqaB
+              type: template-demo
+      height: 251
+      id: tdaOkPjdv_
+      patternId: card
+      templateId: react-M4VuHaS0vq
+      title: Main
+      type: data
+      width: 881
   settings: {}
 settings:
   logoUrl: ''

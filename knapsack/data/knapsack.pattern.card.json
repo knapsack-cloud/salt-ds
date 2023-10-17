@@ -1,0 +1,37 @@
+{
+  "id": "card",
+  "title": "Card",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-M4VuHaS0vq",
+      "title": "React",
+      "path": "@salt-ds/core",
+      "alias": "Card",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["tdaOkPjdv_"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "template",
+      "id": "react-M4VuHaS0vq"
+    },
+    {
+      "type": "subPage",
+      "id": "overview"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}
