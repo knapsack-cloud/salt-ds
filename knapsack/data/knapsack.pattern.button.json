@@ -6,7 +6,7 @@
   "templates": [
     {
       "id": "react-4z44n8JqaB",
-      "title": "React",
+      "title": "<Button>",
       "path": "@salt-ds/core",
       "alias": "Button",
       "templateLanguageId": "react",

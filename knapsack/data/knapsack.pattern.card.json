@@ -2,11 +2,13 @@
   "id": "card",
   "title": "Card",
   "description": "",
-  "statuses": {},
+  "statuses": {
+    "main": "needsDev"
+  },
   "templates": [
     {
       "id": "react-M4VuHaS0vq",
-      "title": "React",
+      "title": "<Card>",
       "path": "@salt-ds/core",
       "alias": "Card",
       "templateLanguageId": "react",
