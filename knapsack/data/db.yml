@@ -1,10 +1,47 @@
 blocks:
-  byId: {}
+  byId:
+    YHoXLfRb0n:
+      blockType: pattern-template-block
+      data:
+        allowResizing: false
+        demoId: 2AP1yn1awi
+        demoSize: landscape
+        hideControls: false
+        patternId: banner
+        playgroundUi:
+          allowResizing: false
+          demoSize: landscape
+          showCodeSnippet: true
+          showSchemaForm: false
+        showCodeSnippet: true
+        showSchemaForm: false
+        templateId: react-FMCNNz7tYg
+      id: YHoXLfRb0n
+      size: null
   settings:
     tokens:
       rootFontSize: 16px
 demos:
   byId:
+    2AP1yn1awi:
+      data:
+        props:
+          defaultChecked: false
+          status: success
+          variant: primary
+        slots:
+          children:
+            - demoId: a4KXMasETv
+              patternId: banner
+              templateId: react-_W45TtsaSk
+              type: template-demo
+      height: 156
+      id: 2AP1yn1awi
+      patternId: banner
+      templateId: react-FMCNNz7tYg
+      title: Main
+      type: data
+      width: 881
     KyCPvfifwG:
       data:
         props:
@@ -30,6 +67,18 @@ demos:
       templateId: react-Veo93IBHtY
       title: Main
       type: data
+    a4KXMasETv:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Your details have been updated successfully.
+              type: text
+      id: a4KXMasETv
+      patternId: banner
+      templateId: react-_W45TtsaSk
+      title: Main
+      type: data
     tdaOkPjdv_:
       data:
         props: {}
@@ -48,6 +97,15 @@ demos:
       title: Main
       type: data
       width: 881
+    xq4s_PbKWa:
+      data:
+        props: {}
+        slots: {}
+      id: xq4s_PbKWa
+      patternId: banner
+      templateId: react-jI-RC0xK9p
+      title: Main
+      type: data
   settings: {}
 settings:
   logoUrl: ''

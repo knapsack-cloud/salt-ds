@@ -1,4 +1,9 @@
 byId:
+  banner:
+    id: banner
+    name: /pattern/banner
+    parentId: components
+    path: /pattern/banner
   button:
     id: button
     name: Button
@@ -16,5 +21,6 @@ byId:
     path: ""
 order:
   - components
+  - banner
   - button
   - card

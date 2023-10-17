@@ -1,0 +1,71 @@
+{
+  "id": "banner",
+  "title": "Banner",
+  "description": "Banner is a type of notification that displays a message or provides feedback related to the user’s current workflow and spans the page or container horizontally. It can communicate new information, errors, warnings, or successful completion of a process or task.",
+  "statuses": {
+    "main": "ready"
+  },
+  "templates": [
+    {
+      "id": "react-FMCNNz7tYg",
+      "title": "<Banner>",
+      "path": "@salt-ds/core",
+      "alias": "Banner",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["2AP1yn1awi"],
+      "blockIds": []
+    },
+    {
+      "id": "react-_W45TtsaSk",
+      "title": "<BannerContent>",
+      "path": "@salt-ds/core",
+      "alias": "BannerContent",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["a4KXMasETv"],
+      "blockIds": []
+    },
+    {
+      "id": "react-jI-RC0xK9p",
+      "title": "<BannerActions>",
+      "path": "@salt-ds/core",
+      "alias": "BannerActions",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["xq4s_PbKWa"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-FMCNNz7tYg"
+    },
+    {
+      "type": "template",
+      "id": "react-_W45TtsaSk"
+    },
+    {
+      "type": "template",
+      "id": "react-jI-RC0xK9p"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": ["YHoXLfRb0n"]
+    }
+  ]
+}
