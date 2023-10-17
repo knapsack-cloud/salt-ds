@@ -19,8 +19,13 @@ byId:
     name: Components
     parentId: root
     path: ""
+  text:
+    id: text
+    parentId: components
+    path: /pattern/text
 order:
   - components
   - banner
   - button
   - card
+  - text

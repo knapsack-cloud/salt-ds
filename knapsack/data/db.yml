@@ -23,6 +23,32 @@ blocks:
       rootFontSize: 16px
 demos:
   byId:
+    0Cjs_rupR2:
+      data:
+        props:
+          disabled: false
+          variant: primary
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: 0Cjs_rupR2
+      patternId: text
+      templateId: react-ugYVENK_N2
+      title: Main
+      type: data
+    124yksHdpD:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: 124yksHdpD
+      patternId: text
+      templateId: react-FKlaE0bflp
+      title: Main
+      type: data
     2AP1yn1awi:
       data:
         props:
@@ -42,6 +68,30 @@ demos:
       title: Main
       type: data
       width: 881
+    5E0ZqlFl--:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: 5E0ZqlFl--
+      patternId: text
+      templateId: react-GSnue0eqQC
+      title: Main
+      type: data
+    6Z_IoSZT2t:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: 6Z_IoSZT2t
+      patternId: text
+      templateId: react-MLCOH8wsGn
+      title: Main
+      type: data
     KyCPvfifwG:
       data:
         props:
@@ -58,6 +108,18 @@ demos:
       title: Main
       type: data
       width: 324
+    UNUxPMDKnv:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: UNUxPMDKnv
+      patternId: text
+      templateId: react-h4tOq8qElr
+      title: Main
+      type: data
     _2PSFV0BFV:
       data:
         props: {}
@@ -77,6 +139,30 @@ demos:
       id: a4KXMasETv
       patternId: banner
       templateId: react-_W45TtsaSk
+      title: Main
+      type: data
+    awWDu5tsss:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: awWDu5tsss
+      patternId: text
+      templateId: react-Hqb9POyAFM
+      title: Main
+      type: data
+    oUlRi2fa2C:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Hello!
+              type: text
+      id: oUlRi2fa2C
+      patternId: text
+      templateId: react-i_ZFFYP5ns
       title: Main
       type: data
     tdaOkPjdv_:

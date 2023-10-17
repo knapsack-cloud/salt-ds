@@ -1,0 +1,135 @@
+{
+  "id": "text",
+  "title": "Text",
+  "description": "Text is a component that makes it easy to use our typography styles throughout a product or application, ensuring consistency and a unified look and feel. It includes attributes such as font size, weight, letter spacing, line height and decoration.",
+  "statuses": {
+    "main": "needsReview"
+  },
+  "templates": [
+    {
+      "id": "react-ugYVENK_N2",
+      "title": "<Text>",
+      "path": "@salt-ds/core",
+      "alias": "Text",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["0Cjs_rupR2"],
+      "blockIds": []
+    },
+    {
+      "id": "react-i_ZFFYP5ns",
+      "title": "<Display1>",
+      "path": "@salt-ds/core",
+      "alias": "Display1",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["oUlRi2fa2C"],
+      "blockIds": []
+    },
+    {
+      "id": "react-MLCOH8wsGn",
+      "title": "<Display2>",
+      "path": "@salt-ds/core",
+      "alias": "Display2",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["6Z_IoSZT2t"],
+      "blockIds": []
+    },
+    {
+      "id": "react-GSnue0eqQC",
+      "title": "<Display3>",
+      "path": "@salt-ds/core",
+      "alias": "Display3",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["5E0ZqlFl--"],
+      "blockIds": []
+    },
+    {
+      "id": "react-h4tOq8qElr",
+      "title": "<H1>",
+      "path": "@salt-ds/core",
+      "alias": "H1",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["UNUxPMDKnv"],
+      "blockIds": []
+    },
+    {
+      "id": "react-Hqb9POyAFM",
+      "title": "<H2>",
+      "path": "@salt-ds/core",
+      "alias": "H2",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["awWDu5tsss"],
+      "blockIds": []
+    },
+    {
+      "id": "react-FKlaE0bflp",
+      "title": "<H3>",
+      "path": "@salt-ds/core",
+      "alias": "H3",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["124yksHdpD"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-ugYVENK_N2"
+    },
+    {
+      "type": "template",
+      "id": "react-i_ZFFYP5ns"
+    },
+    {
+      "type": "template",
+      "id": "react-MLCOH8wsGn"
+    },
+    {
+      "type": "template",
+      "id": "react-GSnue0eqQC"
+    },
+    {
+      "type": "template",
+      "id": "react-h4tOq8qElr"
+    },
+    {
+      "type": "template",
+      "id": "react-Hqb9POyAFM"
+    },
+    {
+      "type": "template",
+      "id": "react-FKlaE0bflp"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}
