@@ -9,12 +9,6 @@ byId:
     name: Components
     parentId: root
     path: ""
-  untitled:
-    id: untitled
-    name: untitled
-    parentId: components
-    path: /pages/untitled
 order:
   - components
-  - untitled
   - button
