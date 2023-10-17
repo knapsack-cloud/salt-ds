@@ -42,5 +42,8 @@ module.exports = configureKnapsack({
   cloud: {
     siteId: "salt",
     repoRoot: join(__dirname, ".."),
+    repoName: "salt-ds",
+    repoOwner: "knapsack-cloud",
+    baseBranch: "main",
   },
 });
