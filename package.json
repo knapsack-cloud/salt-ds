@@ -48,7 +48,8 @@
     "ks:start": "knapsack --config ./knapsack/knapsack.config.js start",
     "ks:serve": "NODE_ENV=production knapsack --config ./knapsack/knapsack.config.js serve",
     "ks:test": "knapsack --config ./knapsack/knapsack.config.js test",
-    "ks:import": "knapsack --config ./knapsack/knapsack.config.js react-patterns --pkg-path @salt-ds/core --importPrefix null"
+    "ks:import": "knapsack --config ./knapsack/knapsack.config.js react-patterns --pkg-path @salt-ds/core --importPrefix null",
+    "heroku-postbuild": "yarn ks:build"
   },
   "dependencies": {
     "@changesets/cli": "^2.25.2",
