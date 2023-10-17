@@ -43,6 +43,10 @@
     {
       "type": "template",
       "id": "react-PssHY30Pvg"
+    },
+    {
+      "type": "subPage",
+      "id": "gRdwNn6Ffw"
     }
   ],
   "subPages": [
@@ -50,6 +54,11 @@
       "id": "overview",
       "title": "Overview",
       "blockIds": ["9NOqUy8jjN"]
+    },
+    {
+      "title": "Accessibility",
+      "id": "gRdwNn6Ffw",
+      "blockIds": ["03X4dpqMu3", "_y1-GDFZGg"]
     }
   ]
 }
