@@ -40,7 +40,7 @@ jobs:
         # This command clears the cache before installing dependences
         run: |
           yarn cache clean
-          yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile --force-node-version=16
+          yarn install --cache-folder ~/.cache/yarn --frozen-lockfile
         env:
           CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
       - name: Run Full Build
