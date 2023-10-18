@@ -44,7 +44,7 @@
     "build-storybook": "yarn build:ag-grid-theme && storybook build",
     "typecheck": "tsc --noEmit",
     "chromatic": "chromatic",
-    "ks:build": "knapsack --config ./knapsack/knapsack.config.js build",
+    "ks:build": "knapsack --config ./knapsack/knapsack.config.js build && npm run ks:create-theme",
     "ks:start-ks": "knapsack --config ./knapsack/knapsack.config.js start",
     "ks:start": "run-p ks:start-ks ks:watch-tokens",
     "ks:serve": "NODE_ENV=production knapsack --config ./knapsack/knapsack.config.js serve",
