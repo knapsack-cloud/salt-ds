@@ -3,7 +3,8 @@
   "title": "Grid",
   "description": "Grid Layout manages the layout of the main content area in your application screen or webpage. It aligns content to a system of equally distributed columns and rows to create a cohesive and organized UI. When used with responsive breakpoints, Grid Layout can be used to determine how the same content is displayed across different viewport sizes or device screen sizes.",
   "statuses": {
-    "main": "ready"
+    "main": "ready",
+    "JyW35WV8A1": "NdLPwmbm2d"
   },
   "templates": [
     {

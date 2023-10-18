@@ -1,1 +1,76 @@
-{}
+{
+  "salt": {
+    "type": "string",
+    "color": {
+      "gray": {
+        "20": {
+          "$type": "color",
+          "$value": "#eaedef",
+          "$description": ""
+        },
+        "70": {
+          "$type": "color",
+          "$value": "#b4b7be",
+          "$description": ""
+        },
+        "90": {
+          "$type": "color",
+          "$value": "#84878e",
+          "$description": ""
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#161616",
+          "$description": ""
+        },
+        "type": "string",
+        "description": ""
+      },
+      "type": "string",
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": ""
+      },
+      "orange": {
+        "500": {
+          "$type": "color",
+          "$value": "#ea7319",
+          "$description": ""
+        },
+        "type": "string",
+        "description": ""
+      },
+      "description": ""
+    },
+    "palette": {
+      "type": "string",
+      "track": {
+        "type": "string",
+        "border": {
+          "$value": "{salt.color.gray.90}",
+          "$description": ""
+        },
+        "description": ""
+      },
+      "warning": {
+        "type": "string",
+        "border": {
+          "$value": "{salt.color.orange.500}",
+          "$description": ""
+        },
+        "description": ""
+      },
+      "description": ""
+    },
+    "container": {
+      "type": "string",
+      "secondary": {
+        "type": "string",
+        "description": ""
+      },
+      "description": ""
+    },
+    "description": ""
+  }
+}

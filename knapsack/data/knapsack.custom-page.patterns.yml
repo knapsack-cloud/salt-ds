@@ -1,0 +1,15 @@
+id: patterns
+title: Patterns
+blockIds:
+  - TTA-iyIfyL
+  - KJa3VvdYDA
+  - 1em7MLIohc
+  - 7mqFXn7blQ
+settings:
+  pageHeader:
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white

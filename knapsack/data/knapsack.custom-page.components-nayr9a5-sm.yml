@@ -1,0 +1,17 @@
+id: components-nayr9a5-sm
+title: Components
+blockIds:
+  - UtoTZRz8NG
+  - PZ6TAIkUtH
+  - Sm4W4dFYTt
+  - rGvxvE48dB
+description: ""
+settings:
+  pageHeader:
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    size: small

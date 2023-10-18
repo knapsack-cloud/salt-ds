@@ -1,0 +1,13 @@
+id: about-salt
+title: About Salt
+blockIds:
+  - 36tG6nElQw
+  - Ll89z6_9-O
+settings:
+  pageHeader:
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
