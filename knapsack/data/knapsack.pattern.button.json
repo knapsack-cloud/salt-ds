@@ -2,7 +2,10 @@
   "id": "button",
   "title": "Button",
   "description": "",
-  "statuses": {},
+  "statuses": {
+    "JyW35WV8A1": "NdLPwmbm2d",
+    "main": "needsReview"
+  },
   "templates": [
     {
       "id": "react-4z44n8JqaB",

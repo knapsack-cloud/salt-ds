@@ -2,32 +2,53 @@
   "statusSets": [
     {
       "id": "main",
-      "title": "Status",
+      "title": "React",
       "statuses": [
         {
-          "id": "draft",
-          "title": "Draft",
-          "color": "#9b9b9b"
-        },
-        {
-          "id": "needsDesign",
-          "title": "Needs Design",
-          "color": "#FC0"
-        },
-        {
           "id": "needsDev",
-          "title": "Needs Development",
-          "color": "#FC0"
+          "color": "#cacaca",
+          "title": "N/A"
         },
         {
           "id": "needsReview",
-          "title": "Needs Review",
-          "color": "#FC0"
+          "color": "#ff5400",
+          "title": "In Progress"
+        },
+        {
+          "id": "needsDesign",
+          "color": "#2ECC40",
+          "title": "In lab v1.0.0-alpha.15"
         },
         {
           "id": "ready",
-          "title": "Ready",
-          "color": "#2ECC40"
+          "color": "#2ECC40",
+          "title": "In lab v1.0.0-alpha.16"
+        },
+        {
+          "id": "NdLPwmbm2d",
+          "color": "#2da444",
+          "title": "Ready"
+        }
+      ]
+    },
+    {
+      "id": "JyW35WV8A1",
+      "title": "Figma",
+      "statuses": [
+        {
+          "id": "needsDev",
+          "color": "#cacaca",
+          "title": "N/A"
+        },
+        {
+          "id": "needsReview",
+          "color": "#ff5400",
+          "title": "In Progress"
+        },
+        {
+          "id": "NdLPwmbm2d",
+          "color": "#2da444",
+          "title": "Ready"
         }
       ]
     }

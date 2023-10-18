@@ -4,45 +4,89 @@ byId:
     name: About
     parentId: root
     path: ""
+  about-salt:
+    id: about-salt
+    name: About Salt
+    parentId: about
+    path: /pages/about-salt
   banner:
     id: banner
     name: /pattern/banner
-    parentId: components
+    parentId: components-nayr9a5-sm
     path: /pattern/banner
   button:
     id: button
     name: Button
-    parentId: components
+    parentId: components-nayr9a5-sm
     path: /pattern/button
   card:
     id: card
     name: Card
-    parentId: components
+    parentId: components-nayr9a5-sm
     path: /pattern/card
-  components:
-    id: components
+  components-nayr9a5-sm:
+    id: components-nayr9a5-sm
     name: Components
     parentId: root
-    path: ""
+    path: /pages/components-nayr9a5-sm
+  forms:
+    id: forms
+    name: Forms
+    parentId: patterns
+    path: /pages/forms
   grid:
     id: grid
-    parentId: components
+    name: /pattern/grid
+    parentId: components-nayr9a5-sm
     path: /pattern/grid
-  overview:
-    id: overview
-    name: Overview
+  international-address-input:
+    id: international-address-input
+    name: International Address Input
+    parentId: patterns
+    path: /pages/international-address-input
+  navigation:
+    id: navigation
+    name: Navigation
+    parentId: patterns
+    path: /pages/navigation
+  patterns:
+    id: patterns
+    name: Patterns
+    parentId: root
+    path: /pages/patterns
+  research-approach:
+    id: research-approach
+    name: Research Approach
     parentId: about
-    path: /pages/overview
+    path: /pages/research-approach
+  roadmap:
+    id: roadmap
+    name: Roadmap
+    parentId: about
+    path: /pages/roadmap
+  supported-platform:
+    id: supported-platform
+    name: Supported Platform
+    parentId: about
+    path: /pages/supported-platform
   text:
     id: text
-    parentId: components
+    name: /pattern/text
+    parentId: components-nayr9a5-sm
     path: /pattern/text
 order:
   - about
-  - components
+  - about-salt
+  - research-approach
+  - roadmap
+  - supported-platform
+  - components-nayr9a5-sm
   - banner
   - button
   - card
-  - text
   - grid
-  - overview
+  - text
+  - patterns
+  - forms
+  - international-address-input
+  - navigation
