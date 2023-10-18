@@ -215,6 +215,19 @@ blocks:
           type: doc
       id: 3wLtEdZy5-
       size: medium
+    4GxU9ajjPd:
+      blockType: pattern-variations
+      data:
+        demoId: 2AP1yn1awi
+        excludePropValue: ''
+        hideBlockTitle: false
+        includePropValue: ''
+        patternId: banner
+        size: m
+        templateId: react-FMCNNz7tYg
+        variationId: status
+      id: 4GxU9ajjPd
+      size: null
     4rCfWZA2YO:
       blockType: callout
       data:
@@ -706,6 +719,20 @@ blocks:
           type: doc
       id: 9NOqUy8jjN
       size: null
+    CyA6HHDrZ6:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: Banner Actions
+                  type: text
+              type: heading
+          type: doc
+      id: CyA6HHDrZ6
+      size: null
     GhlCtt9G8h:
       blockType: text-editor
       data:
@@ -795,6 +822,14 @@ blocks:
               type: paragraph
           type: doc
       id: GhlCtt9G8h
+      size: null
+    GkzNs9YcGU:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: banner
+        templateId: react-jI-RC0xK9p
+      id: GkzNs9YcGU
       size: null
     HlV4Gf0cii:
       blockType: text-editor
@@ -1486,24 +1521,6 @@ blocks:
           type: doc
       id: VhTu24NQMe
       size: medium
-    YHoXLfRb0n:
-      blockType: pattern-template-block
-      data:
-        allowResizing: false
-        demoId: 2AP1yn1awi
-        demoSize: landscape
-        hideControls: false
-        patternId: banner
-        playgroundUi:
-          allowResizing: false
-          demoSize: landscape
-          showCodeSnippet: true
-          showSchemaForm: false
-        showCodeSnippet: true
-        showSchemaForm: false
-        templateId: react-FMCNNz7tYg
-      id: YHoXLfRb0n
-      size: null
     ZBDy86NrFa:
       blockType: text-editor
       data:
@@ -1543,6 +1560,154 @@ blocks:
           type: doc
       id: ZBDy86NrFa
       size: medium
+    _WeWlUAIPt:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Overview
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    You should always position the Banner component in the main content area or in the related container
+                    component. It should sit directly below the navigation and span the page or container horizontally.
+                  type: text
+              type: paragraph
+            - content:
+                - text: 'You should configure it to close when:'
+                  type: text
+              type: paragraph
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            The user performs an action that fixes an issue. For example, they correct a validation
+                            error.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            The system status that triggered the notification is resolved. For example, a server
+                            connection is restored.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: When to use Banner
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: To show a notification that applies to the user’s current task or workflow.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: When not to use Banner
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            To notify users of an event that has occurred in a peripheral application or workflow.
+                            Instead, use 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/toast
+                                target: _self
+                              type: link
+                          text: Toast
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            When the notification is caused by a low priority event not requiring user feedback.
+                            Instead, use 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/toast
+                                target: _self
+                              type: link
+                          text: Toast
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Content
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    A Banner is typically used with one or two lines of text. Content should be short, clear, and
+                    concise, allowing users to quickly scan the notification and understand the situation and/or next
+                    steps.
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    The content is set to Body Default, however, if titles are needed, they should be configured to
+                    display the Body Strong typography style across densities.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Banner from the core Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: import { Banner, BannerContent, BannerActions } from "@salt-ds/core";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 2
+              content:
+                - text: Props
+                  type: text
+              type: heading
+            - attrs:
+                level: 3
+              content:
+                - text: Banner
+                  type: text
+              type: heading
+          type: doc
+      id: _WeWlUAIPt
+      size: null
     _y1-GDFZGg:
       blockType: code-snippet
       data:
@@ -1619,6 +1784,23 @@ blocks:
           type: doc
       id: cWsy2pJClu
       size: medium
+    dhjydMn43A:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '480'
+        url: >-
+          https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=2848%3A9421&mode=design&t=rNOoBkwgkor82Tse-1
+      id: dhjydMn43A
+      size: null
+    eFjbfvXv2s:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: banner
+        templateId: react-_W45TtsaSk
+      id: eFjbfvXv2s
+      size: null
     eGhOP89u-2:
       blockType: callout
       data:
@@ -1899,6 +2081,20 @@ blocks:
               type: image
           type: doc
       id: jyIMqCMu2S
+      size: null
+    lFLrveomS4:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: Banner Content
+                  type: text
+              type: heading
+          type: doc
+      id: lFLrveomS4
       size: null
     mMbBwMk4cz:
       blockType: text-editor
@@ -2208,6 +2404,27 @@ blocks:
           type: doc
       id: tLdkaLQVlQ
       size: null
+    tZgBGbTWHj:
+      blockType: pattern-variations
+      data:
+        demoId: 2AP1yn1awi
+        excludePropValue: ''
+        hideBlockTitle: false
+        includePropValue: ''
+        patternId: banner
+        size: m
+        templateId: react-FMCNNz7tYg
+        variationId: variant
+      id: tZgBGbTWHj
+      size: null
+    u4UNjN9_4_:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: banner
+        templateId: react-FMCNNz7tYg
+      id: u4UNjN9_4_
+      size: null
     ustlnkQihr:
       blockType: text-editor
       data:
@@ -2502,7 +2719,15 @@ settings:
   logoUrl: https://knapsack.imgix.net/site/salt/jpm-logo-c_o42fukyt.png
   theme:
     appearance:
-      customFonts: []
+      customFonts:
+        - family: ' Open Sans'
+          src:
+            - format: woff2
+              path: >-
+                https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVIUwaEQbjA.woff2
+              type: url
+          style: normal
+          weight: 400
       navigation:
         primaryNav:
           accentColor:

@@ -14,7 +14,31 @@
       "alias": "Banner",
       "templateLanguageId": "react",
       "spec": {
-        "isInferred": true
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {
+            "status": {
+              "enum": ["error", "warning", "success", "info"],
+              "type": "string",
+              "default": "info",
+              "description": "A string to determine the current state of the Banner"
+            },
+            "variant": {
+              "enum": ["primary", "secondary"],
+              "type": "string",
+              "default": "primary",
+              "description": "Emphasize the styling by applying a background color: defaults to false"
+            }
+          },
+          "description": "Banner is a type of notification that displays a message or provides feedback related to the user’s current workflow and spans the page or container horizontally. It can communicate new information, errors, warnings, or successful completion of a process or task."
+        },
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        }
       },
       "demoIds": ["2AP1yn1awi"],
       "blockIds": []
@@ -26,7 +50,19 @@
       "alias": "BannerContent",
       "templateLanguageId": "react",
       "spec": {
-        "isInferred": true
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {},
+          "description": "Banner is a type of notification that displays a message or provides feedback related to the user’s current workflow and spans the page or container horizontally. It can communicate new information, errors, warnings, or successful completion of a process or task."
+        },
+        "slots": {
+          "children": {
+            "title": "children",
+            "description": "The content of BannerContent"
+          }
+        }
       },
       "demoIds": ["a4KXMasETv"],
       "blockIds": []
@@ -46,27 +82,55 @@
   ],
   "tabs": [
     {
-      "type": "subPage",
-      "id": "overview"
+      "id": "DjpjW2cPPY",
+      "type": "subPage"
     },
     {
-      "type": "template",
-      "id": "react-FMCNNz7tYg"
+      "id": "overview",
+      "type": "subPage"
     },
     {
-      "type": "template",
-      "id": "react-_W45TtsaSk"
+      "id": "YIXFN8E_aW",
+      "type": "subPage"
     },
     {
-      "type": "template",
-      "id": "react-jI-RC0xK9p"
+      "id": "react-FMCNNz7tYg",
+      "type": "template"
+    },
+    {
+      "id": "react-_W45TtsaSk",
+      "type": "template"
+    },
+    {
+      "id": "react-jI-RC0xK9p",
+      "type": "template"
     }
   ],
   "subPages": [
     {
       "id": "overview",
-      "title": "Overview",
-      "blockIds": ["YHoXLfRb0n"]
+      "title": "Examples",
+      "blockIds": ["tZgBGbTWHj", "4GxU9ajjPd"]
+    },
+    {
+      "id": "YIXFN8E_aW",
+      "title": "Figma",
+      "blockIds": ["dhjydMn43A"]
+    },
+    {
+      "id": "DjpjW2cPPY",
+      "title": "How to Use",
+      "blockIds": [
+        "_WeWlUAIPt",
+        "u4UNjN9_4_",
+        "lFLrveomS4",
+        "eFjbfvXv2s",
+        "CyA6HHDrZ6",
+        "GkzNs9YcGU"
+      ]
     }
-  ]
+  ],
+  "settings": {
+    "hideTableOfContents": false
+  }
 }
