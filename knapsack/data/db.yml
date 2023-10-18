@@ -76,7 +76,7 @@ blocks:
             - content:
                 - content:
                     - content:
-                        - text: 'To display sequential information or emphasize ranking. Consider '
+                        - text: "To display sequential information or emphasize ranking. Consider "
                           type: text
                         - marks:
                             - attrs:
@@ -86,13 +86,13 @@ blocks:
                               type: link
                           text: List
                           type: text
-                        - text: ' instead.'
+                        - text: " instead."
                           type: text
                       type: paragraph
                   type: listItem
                 - content:
                     - content:
-                        - text: 'As a stand-alone call to action. Consider '
+                        - text: "As a stand-alone call to action. Consider "
                           type: text
                         - marks:
                             - attrs:
@@ -102,7 +102,7 @@ blocks:
                               type: link
                           text: Button
                           type: text
-                        - text: ' instead.'
+                        - text: " instead."
                           type: text
                       type: paragraph
                   type: listItem
@@ -148,7 +148,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'A default Card can contain any UI elements, such as actionable components like '
+                - text: "A default Card can contain any UI elements, such as actionable components like "
                   type: text
                 - marks:
                     - attrs:
@@ -158,7 +158,7 @@ blocks:
                       type: link
                   text: Buttons
                   type: text
-                - text: ' or '
+                - text: " or "
                   type: text
                 - marks:
                     - attrs:
@@ -182,7 +182,7 @@ blocks:
                       type: link
                   text: Buttons
                   type: text
-                - text: ' or '
+                - text: " or "
                   type: text
                 - marks:
                     - attrs:
@@ -202,7 +202,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To import Card from the core Salt package, use:'
+                - text: "To import Card from the core Salt package, use:"
                   type: text
               type: paragraph
             - attrs:
@@ -566,7 +566,7 @@ blocks:
                   type: listItem
               type: orderedList
             - content:
-                - text: 'Choose the combination that best fits:'
+                - text: "Choose the combination that best fits:"
                   type: text
               type: paragraph
             - content:
@@ -600,7 +600,7 @@ blocks:
             - content:
                 - text: >-
                     Salt is the J.P. Morgan design system, an open-source solution for building exceptional products
-                    and 
+                    and
                   type: text
                 - type: hardBreak
                 - text: digital experiences in financial services and other industries.
@@ -664,9 +664,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: 2AP1yn1awi
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: false
-        includePropValue: ''
+        includePropValue: ""
         patternId: banner
         size: m
         templateId: react-FMCNNz7tYg
@@ -787,7 +787,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'The pattern consists of various form controls (for layout guidance, please refer to the '
+                - text: "The pattern consists of various form controls (for layout guidance, please refer to the "
                   type: text
                 - marks:
                     - attrs:
@@ -797,7 +797,7 @@ blocks:
                       type: link
                   text: Forms pattern
                   type: text
-                - text: '). It comprises two formats: Dynamic and Generic.'
+                - text: "). It comprises two formats: Dynamic and Generic."
                   type: text
               type: paragraph
             - attrs:
@@ -928,7 +928,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To view available components, check out the '
+                - text: "To view available components, check out the "
                   type: text
                 - marks:
                     - attrs:
@@ -1351,7 +1351,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To import Grid Layout from the core Salt package, use:'
+                - text: "To import Grid Layout from the core Salt package, use:"
                   type: text
               type: paragraph
             - attrs:
@@ -1416,7 +1416,7 @@ blocks:
                     - content:
                         - text: >-
                             For icons, use the Salt Figma icon library. If the icon you need isn’t available, follow the
-                            steps in our 
+                            steps in our
                           type: text
                         - marks:
                             - attrs:
@@ -1427,7 +1427,7 @@ blocks:
                               type: link
                           text: Creating Salt icons
                           type: text
-                        - text: ' guide.When to use Button'
+                        - text: " guide.When to use Button"
                           type: text
                       type: paragraph
                   type: listItem
@@ -1437,7 +1437,7 @@ blocks:
                     - content:
                         - text: >-
                             To allow the user to execute an action, such as “submit”, “merge” or “upload”. Buttons are
-                            typically placed in components and contexts such as 
+                            typically placed in components and contexts such as
                           type: text
                         - marks:
                             - attrs:
@@ -1447,7 +1447,7 @@ blocks:
                               type: link
                           text: Dialog
                           type: text
-                        - text: ', '
+                        - text: ", "
                           type: text
                         - marks:
                             - attrs:
@@ -1457,7 +1457,7 @@ blocks:
                               type: link
                           text: Cards
                           type: text
-                        - text: ' and '
+                        - text: " and "
                           type: text
                         - marks:
                             - attrs:
@@ -1483,7 +1483,7 @@ blocks:
                     - content:
                         - text: >-
                             When the primary action is to navigate the user to another page or window, rather than
-                            triggering a function. Consider using a 
+                            triggering a function. Consider using a
                           type: text
                         - marks:
                             - attrs:
@@ -1493,7 +1493,7 @@ blocks:
                               type: link
                           text: Link
                           type: text
-                        - text: ' component instead.'
+                        - text: " component instead."
                           type: text
                       type: paragraph
                   type: listItem
@@ -1505,7 +1505,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To import Button from the core Salt package, use:'
+                - text: "To import Button from the core Salt package, use:"
                   type: text
               type: paragraph
             - attrs:
@@ -1603,7 +1603,7 @@ blocks:
                 - text: >-
                     Grid Layout has a complementary Layout grid style library for Figma. J.P. Morgan employees can
                     enable the Salt Layout Grid library from the Assets panel. External designers can install the
-                    library from the 
+                    library from the
                   type: text
                 - marks:
                     - attrs:
@@ -1641,7 +1641,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'We support:'
+                - text: "We support:"
                   type: text
               type: paragraph
             - content:
@@ -1693,7 +1693,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Salt supports SSR. We recommend the Long Term Support (LTS) version of '
+                - text: "Salt supports SSR. We recommend the Long Term Support (LTS) version of "
                   type: text
                 - marks:
                     - attrs:
@@ -1756,7 +1756,7 @@ blocks:
                 - text: >-
                     We are letting you decide on the user experience you would like to implement for text. However, you
                     need to remain ADA compliant and provide the correct visual and auditory experience for text
-                    truncation. Truncated text must comply to 
+                    truncation. Truncated text must comply to
                   type: text
                 - marks:
                     - attrs:
@@ -1811,7 +1811,7 @@ blocks:
             - content:
                 - text: >-
                     Salt Patterns are under active development. If you would like to propose a new pattern, or have a
-                    pattern you would like to contribute to the system, please 
+                    pattern you would like to contribute to the system, please
                   type: text
                 - marks:
                     - attrs:
@@ -1940,7 +1940,7 @@ blocks:
       data:
         gridStyles:
           centered: false
-          columns: '3'
+          columns: "3"
         shortcuts:
           - description: Research is vital to our efforts to build a fast, modern and open design system
             id: jfUbF_p9gG
@@ -1967,7 +1967,7 @@ blocks:
       blockType: figma-block
       data:
         clickToInteract: false
-        height: '900'
+        height: "900"
         url: >-
           https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=7%3A638&mode=design&t=rNOoBkwgkor82Tse-1
       id: MCBf6pS6vC
@@ -2006,9 +2006,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: wkm0QW9-BM
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: true
-        includePropValue: ''
+        includePropValue: ""
         patternId: button
         size: m
         templateId: react-4z44n8JqaB
@@ -2029,25 +2029,25 @@ blocks:
             - content:
                 - text: >-
                     Stable components do not feature an accompanying symbol in their navigation link titles. You can
-                    find them in the 
+                    find them in the
                   type: text
                 - marks:
                     - type: code
-                  text: '@salt-ds/core'
+                  text: "@salt-ds/core"
                   type: text
-                - text: ' package.'
+                - text: " package."
                   type: text
               type: paragraph
             - content:
                 - text: >-
                     The 🚧 symbol denotes components that are under active development. These may not function as
-                    expected and may change due to feedback. You should exercise caution. You can find them in the 
+                    expected and may change due to feedback. You should exercise caution. You can find them in the
                   type: text
                 - marks:
                     - type: code
-                  text: '@salt-ds/lab'
+                  text: "@salt-ds/lab"
                   type: text
-                - text: ' package.'
+                - text: " package."
                   type: text
               type: paragraph
           type: doc
@@ -2068,7 +2068,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'There may be cases where an additional address form is needed:'
+                - text: "There may be cases where an additional address form is needed:"
                   type: text
               type: paragraph
             - content:
@@ -2161,7 +2161,7 @@ blocks:
             - content:
                 - text: >-
                     If you need to expand the pattern, for example, to have localized Dynamic templates for more
-                    countries or regions, please 
+                    countries or regions, please
                   type: text
                 - marks:
                     - attrs:
@@ -2171,7 +2171,7 @@ blocks:
                       type: link
                   text: reach out to the team
                   type: text
-                - text: ' to discuss.'
+                - text: " to discuss."
                   type: text
               type: paragraph
           type: doc
@@ -2189,7 +2189,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Salt is under active development and new components are released on a regular basis. Check out our '
+                - text: "Salt is under active development and new components are released on a regular basis. Check out our "
                   type: text
                 - marks:
                     - attrs:
@@ -2199,7 +2199,7 @@ blocks:
                       type: link
                   text: roadmap
                   type: text
-                - text: ' to see what''s coming next.'
+                - text: " to see what's coming next."
                   type: text
               type: paragraph
           type: doc
@@ -2264,7 +2264,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'Each pattern has examples showing how you can put '
+                - text: "Each pattern has examples showing how you can put "
                   type: text
                 - marks:
                     - attrs:
@@ -2274,7 +2274,7 @@ blocks:
                       type: link
                   text: Salt Components
                   type: text
-                - text: ' together following the '
+                - text: " together following the "
                   type: text
                 - marks:
                     - attrs:
@@ -2296,9 +2296,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: FTm_YUe_Op
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: true
-        includePropValue: ''
+        includePropValue: ""
         patternId: button
         size: m
         templateId: react-4z44n8JqaB
@@ -2348,7 +2348,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Effective for a form that:'
+                - text: "Effective for a form that:"
                   type: text
               type: paragraph
             - content:
@@ -2393,7 +2393,7 @@ blocks:
                 - text: >-
                     Our components are built with accessibility in mind. Each one has comprehensive supporting
                     documentation with usage guidance, examples and props. We’re constantly adding new components so
-                    check back if what you need isn’t available or 
+                    check back if what you need isn’t available or
                   type: text
                 - marks:
                     - attrs:
@@ -2403,11 +2403,11 @@ blocks:
                       type: link
                   text: get in touch
                   type: text
-                - text: ' if you have any feedback or requests.'
+                - text: " if you have any feedback or requests."
                   type: text
               type: paragraph
             - content:
-                - text: 'In addition to the public libraries in the '
+                - text: "In addition to the public libraries in the "
                   type: text
                 - marks:
                     - attrs:
@@ -2417,7 +2417,7 @@ blocks:
                       type: link
                   text: Figma Community
                   type: text
-                - text: ', if you’re a J.P. Morgan employee, you can view the '
+                - text: ", if you’re a J.P. Morgan employee, you can view the "
                   type: text
                 - marks:
                     - attrs:
@@ -2427,7 +2427,7 @@ blocks:
                       type: link
                   text: Salt component files
                   type: text
-                - text: ' in Figma when logged in to the JPMC network. They include accessibility and design specifications for each component, with designs for light and dark modes in all four densities.'
+                - text: " in Figma when logged in to the JPMC network. They include accessibility and design specifications for each component, with designs for light and dark modes in all four densities."
                   type: text
               type: paragraph
           type: doc
@@ -2445,7 +2445,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'If you find a need to expand the pattern or have feedback, please '
+                - text: "If you find a need to expand the pattern or have feedback, please "
                   type: text
                 - marks:
                     - attrs:
@@ -2455,7 +2455,7 @@ blocks:
                       type: link
                   text: reach out to the team
                   type: text
-                - text: ' to the team to discuss.'
+                - text: " to the team to discuss."
                   type: text
               type: paragraph
           type: doc
@@ -2473,7 +2473,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Embed your form in the application layout when the form is:'
+                - text: "Embed your form in the application layout when the form is:"
                   type: text
               type: paragraph
             - content:
@@ -2514,7 +2514,7 @@ blocks:
         content:
           content:
             - content:
-                - text: 'Read more on our '
+                - text: "Read more on our "
                   type: text
                 - marks:
                     - attrs:
@@ -2524,7 +2524,7 @@ blocks:
                       type: link
                   text: Typography Foundation
                   type: text
-                - text: ' page.'
+                - text: " page."
                   type: text
               type: paragraph
             - attrs:
@@ -2542,7 +2542,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To import Text from the core Salt package, use:'
+                - text: "To import Text from the core Salt package, use:"
                   type: text
               type: paragraph
             - attrs:
@@ -2623,9 +2623,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: KyCPvfifwG
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: false
-        includePropValue: ''
+        includePropValue: ""
         patternId: button
         size: m
         templateId: react-4z44n8JqaB
@@ -2650,7 +2650,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'You should configure it to close when:'
+                - text: "You should configure it to close when:"
                   type: text
               type: paragraph
             - content:
@@ -2696,7 +2696,7 @@ blocks:
                     - content:
                         - text: >-
                             To notify users of an event that has occurred in a peripheral application or workflow.
-                            Instead, use 
+                            Instead, use
                           type: text
                         - marks:
                             - attrs:
@@ -2714,7 +2714,7 @@ blocks:
                     - content:
                         - text: >-
                             When the notification is caused by a low priority event not requiring user feedback.
-                            Instead, use 
+                            Instead, use
                           type: text
                         - marks:
                             - attrs:
@@ -2755,7 +2755,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'To import Banner from the core Salt package, use:'
+                - text: "To import Banner from the core Salt package, use:"
                   type: text
               type: paragraph
             - attrs:
@@ -2845,7 +2845,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Effective for a form that:'
+                - text: "Effective for a form that:"
                   type: text
               type: paragraph
             - content:
@@ -2893,7 +2893,7 @@ blocks:
       blockType: figma-block
       data:
         clickToInteract: false
-        height: '480'
+        height: "480"
         url: >-
           https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=2848%3A9421&mode=design&t=rNOoBkwgkor82Tse-1
       id: dhjydMn43A
@@ -2928,7 +2928,7 @@ blocks:
                   type: listItem
                 - content:
                     - content:
-                        - text: 'Use '
+                        - text: "Use "
                           type: text
                         - marks:
                             - attrs:
@@ -2938,7 +2938,7 @@ blocks:
                               type: link
                           text: Salt breakpoints
                           type: text
-                        - text: ' to determine how the navigation will display at various viewport sizes.'
+                        - text: " to determine how the navigation will display at various viewport sizes."
                           type: text
                       type: paragraph
                   type: listItem
@@ -3061,7 +3061,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Typically displays smaller forms that:'
+                - text: "Typically displays smaller forms that:"
                   type: text
               type: paragraph
             - content:
@@ -3191,9 +3191,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: KyCPvfifwG
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: false
-        includePropValue: ''
+        includePropValue: ""
         patternId: button
         size: m
         templateId: react-4z44n8JqaB
@@ -3291,7 +3291,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'Use one or both of the two navigation structures below:'
+                - text: "Use one or both of the two navigation structures below:"
                   type: text
               type: paragraph
           type: doc
@@ -3301,7 +3301,7 @@ blocks:
       blockType: figma-block
       data:
         clickToInteract: false
-        height: '900'
+        height: "900"
         url: >-
           https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=978%3A76758&mode=design&t=rNOoBkwgkor82Tse-1
       id: mox8MU12vT
@@ -3364,7 +3364,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'A form control consists of a '
+                - text: "A form control consists of a "
                   type: text
                 - marks:
                     - attrs:
@@ -3374,7 +3374,7 @@ blocks:
                       type: link
                   text: Form Field
                   type: text
-                - text: ' wrapped around:'
+                - text: " wrapped around:"
                   type: text
               type: paragraph
             - content:
@@ -3405,13 +3405,13 @@ blocks:
                   type: listItem
               type: bulletList
             - attrs:
-                alt: ''
+                alt: ""
                 src: https://www.saltdesignsystem.com/img/patterns/forms/form_layout_1.png
                 title: null
               type: image
             - content:
                 - type: hardBreak
-                - text: '*You can find more information on the Salt spacing system '
+                - text: "*You can find more information on the Salt spacing system "
                   type: text
                 - marks:
                     - attrs:
@@ -3468,7 +3468,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: 'When it comes to research, our key principles are:'
+                - text: "When it comes to research, our key principles are:"
                   type: text
               type: paragraph
             - content:
@@ -3482,13 +3482,13 @@ blocks:
                   type: listItem
                 - content:
                     - content:
-                        - text: 'Build to scale: we aim to make it easier to reuse our methods and report results'
+                        - text: "Build to scale: we aim to make it easier to reuse our methods and report results"
                           type: text
                       type: paragraph
                   type: listItem
               type: bulletList
             - content:
-                - text: 'The users of our design system are:'
+                - text: "The users of our design system are:"
                   type: text
               type: paragraph
             - content:
@@ -3502,7 +3502,7 @@ blocks:
                   type: listItem
                 - content:
                     - content:
-                        - text: 'End-user: individuals or teams that use applications built with Salt'
+                        - text: "End-user: individuals or teams that use applications built with Salt"
                           type: text
                       type: paragraph
                   type: listItem
@@ -3531,9 +3531,9 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: 2AP1yn1awi
-        excludePropValue: ''
+        excludePropValue: ""
         hideBlockTitle: false
-        includePropValue: ''
+        includePropValue: ""
         patternId: banner
         size: m
         templateId: react-FMCNNz7tYg
@@ -3568,7 +3568,7 @@ blocks:
                   type: text
               type: heading
             - content:
-                - text: 'Combine both horizontal and vertical navigation when users need to:'
+                - text: "Combine both horizontal and vertical navigation when users need to:"
                   type: text
               type: paragraph
             - content:
@@ -3874,8 +3874,8 @@ demos:
     pENWJjCNRa:
       data:
         props:
-          columns: '12'
-          rows: '1'
+          columns: "12"
+          rows: "1"
         slots:
           children:
             - demoId: kHidrtuUo-
@@ -3923,7 +3923,7 @@ demos:
           interactable: true
         slots:
           children:
-            - text: ''
+            - text: ""
               type: text
             - demoId: UNUxPMDKnv
               patternId: text
@@ -3937,7 +3937,7 @@ demos:
               patternId: button
               templateId: react-4z44n8JqaB
               type: template-demo
-      description: ''
+      description: ""
       id: wUWP3yYHy1
       patternId: card
       templateId: react-M4VuHaS0vq
@@ -3976,7 +3976,7 @@ settings:
   theme:
     appearance:
       customFonts:
-        - family: ' Open Sans'
+        - family: " Open Sans"
           src:
             - format: woff2
               path: >-
@@ -4013,7 +4013,7 @@ settings:
           textTransform: inherit
         tabs:
           accentColor:
-            colorValue: '#ea7319'
+            colorValue: "#ea7319"
             type: value
           textTransform: inherit
       pageElements:
