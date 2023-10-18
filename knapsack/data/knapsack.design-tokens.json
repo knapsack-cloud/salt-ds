@@ -72,5 +72,70 @@
       "description": ""
     },
     "description": ""
+  },
+  "theme": {
+    "description": "",
+    "type": "string",
+    "coin": {
+      "description": "",
+      "type": "string",
+      "actionable": {
+        "description": "",
+        "type": "string",
+        "primary": {
+          "description": "",
+          "type": "string",
+          "background": {
+            "$value": "#510433",
+            "$description": "",
+            "$type": "color"
+          },
+          "background hover": {
+            "$value": "#d1e909",
+            "$description": "",
+            "$type": "color"
+          }
+        }
+      }
+    },
+    "dollar": {
+      "description": "",
+      "type": "string",
+      "actionable": {
+        "description": "",
+        "type": "string",
+        "primary": {
+          "description": "",
+          "type": "string",
+          "background": {
+            "$value": "#15abd6",
+            "$description": "",
+            "$type": "color"
+          },
+          "background hover": {
+            "$value": "#09dee8",
+            "$description": "",
+            "$type": "color"
+          }
+        }
+      }
+    },
+    "check": {
+      "description": "",
+      "type": "string",
+      "actionable": {
+        "description": "",
+        "type": "string",
+        "primary": {
+          "description": "",
+          "type": "string",
+          "background": {
+            "$value": "#ee0000",
+            "$description": "",
+            "$type": "color"
+          }
+        }
+      }
+    }
   }
 }

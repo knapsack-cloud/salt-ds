@@ -1,38 +1,59 @@
 {
   "globalAssetSetIds": [
-    "mode--light-density--low",
-    "mode--dark-density--low",
-    "mode--light-density--high",
-    "mode--dark-density--high"
+    "salt-light",
+    "salt-dark",
+    "check",
+    "coin",
+    "dollar"
   ],
   "allAssetSets": {
-    "mode--light-density--low": {
-      "id": "mode--light-density--low",
-      "title": "mode--light-density--low",
-      "inlineCss": "",
-      "inlineJs": "document.body.setAttribute('mode', 'light'); document.body.setAttribute('density', 'low');",
+    "salt-light": {
+      "id": "salt-light",
+      "title": "Salt (light)",
+      "inlineJs": "document.body.setAttribute('data-mode', 'light');",
       "assets": []
     },
-    "mode--dark-density--low": {
-      "id": "mode--dark-density--low",
-      "title": "mode--dark-density--low",
-      "inlineCss": "",
-      "inlineJs": "document.body.setAttribute('mode', 'dark');  document.body.setAttribute('density', 'low');",
+    "salt-dark": {
+      "id": "salt-dark",
+      "title": "Salt (dark)",
+      "inlineJs": "document.body.setAttribute('data-mode', 'dark');",
       "assets": []
     },
-    "mode--light-density--high": {
-      "id": "mode--light-density--high",
-      "title": "mode--light-density--high",
-      "inlineCss": "",
-      "inlineJs": "document.body.setAttribute('mode', 'light'); document.body.setAttribute('density', 'high');",
-      "assets": []
+    "check": {
+      "id": "check",
+      "title": "check",
+      "assets": [
+        {
+          "src": "../dist/tokens/design-tokens.css"
+        },
+        {
+          "src": "../../ks-theme-check.css"
+        }
+      ]
     },
-    "mode--dark-density--high": {
-      "id": "mode--dark-density--high",
-      "title": "mode--dark-density--high",
-      "inlineCss": "",
-      "inlineJs": "document.body.setAttribute('mode', 'dark');  document.body.setAttribute('density', 'high');",
-      "assets": []
+    "coin": {
+      "id": "coin",
+      "title": "coin",
+      "assets": [
+        {
+          "src": "../dist/tokens/design-tokens.css"
+        },
+        {
+          "src": "../../ks-theme-coin.css"
+        }
+      ]
+    },
+    "dollar": {
+      "id": "dollar",
+      "title": "dollar",
+      "assets": [
+        {
+          "src": "../dist/tokens/design-tokens.css"
+        },
+        {
+          "src": "../../ks-theme-dollar.css"
+        }
+      ]
     }
   }
 }

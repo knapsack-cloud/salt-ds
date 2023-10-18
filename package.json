@@ -44,11 +44,13 @@
     "build-storybook": "yarn build:ag-grid-theme && storybook build",
     "typecheck": "tsc --noEmit",
     "chromatic": "chromatic",
-    "ks:build": "knapsack --config ./knapsack/knapsack.config.js build",
-    "ks:start": "knapsack --config ./knapsack/knapsack.config.js start",
+    "ks:build": "knapsack --config ./knapsack/knapsack.config.js build && npx ts-node ./ks-theme-create.ts'",
+    "ks:start-ks": "knapsack --config ./knapsack/knapsack.config.js start",
+    "ks:start": "run-p ks:start-ks ks:watch-tokens",
     "ks:serve": "NODE_ENV=production knapsack --config ./knapsack/knapsack.config.js serve",
     "ks:test": "knapsack --config ./knapsack/knapsack.config.js test",
     "ks:import": "knapsack --config ./knapsack/knapsack.config.js react-patterns --pkg-path @salt-ds/core --importPrefix null",
+    "ks:watch-tokens": "npx nodemon --watch knapsack/dist/tokens/design-tokens.css --exec 'touch ./knapsack/demo-wrapper.tsx && npx ts-node ./ks-theme-create.ts'",
     "heroku-postbuild": "yarn ks:build"
   },
   "dependencies": {
@@ -103,6 +105,7 @@
     "modular-scripts": "patch:modular-scripts@npm:3.6.0#.yarn/patches/modular-scripts-npm-3.6.0-d967962075.patch",
     "msw": "^1.2.1",
     "msw-storybook-addon": "^1.8.0",
+    "npm-run-all": "^4.1.5",
     "nyse-holidays": "^1.2.0",
     "prettier": "^2.6.2",
     "pretty-quick": "^3.1.3",
