@@ -1,3 +1,13 @@
 id: research-approach
 title: Research Approach
-blockIds: []
+blockIds:
+  - tLdkaLQVlQ
+  - i6H4-d8n92
+settings:
+  pageHeader:
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900

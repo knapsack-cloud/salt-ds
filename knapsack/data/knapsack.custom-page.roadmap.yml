@@ -1,3 +1,13 @@
 id: roadmap
 title: Roadmap
-blockIds: []
+blockIds:
+  - 7i9bNz69S6
+settings:
+  pageHeader:
+    hideText: false
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900

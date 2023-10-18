@@ -1,3 +1,23 @@
 id: navigation
 title: Navigation
-blockIds: []
+blockIds:
+  - mMbBwMk4cz
+  - eUo1VEhpZ1
+  - ZBDy86NrFa
+  - ustlnkQihr
+  - UfxBLjJQG9
+  - TE7XiTMcMp
+  - 3Gp6qf8--9
+  - 4rCfWZA2YO
+  - LdnkYbm96h
+  - jyIMqCMu2S
+  - eGhOP89u-2
+  - VGK7JObzzu
+settings:
+  pageHeader:
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900

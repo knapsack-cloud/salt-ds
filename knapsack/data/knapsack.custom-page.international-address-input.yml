@@ -1,3 +1,19 @@
 id: international-address-input
 title: International Address Input
-blockIds: []
+blockIds:
+  - 7U8U7QJope
+  - HlV4Gf0cii
+  - fEtPLvnN9y
+  - 3wLtEdZy5-
+  - qfQ2PHSzv-
+  - q834nCFdXf
+  - 8CQeQjk0oG
+  - QMUJ3h8zt1
+settings:
+  pageHeader:
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900
