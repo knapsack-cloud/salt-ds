@@ -16,12 +16,10 @@ byId:
     path: /pattern/banner
   button:
     id: button
-    name: Button
     parentId: components-nayr9a5-sm
     path: /pattern/button
   card:
     id: card
-    name: Card
     parentId: components-nayr9a5-sm
     path: /pattern/card
   components-nayr9a5-sm:
@@ -36,7 +34,7 @@ byId:
     path: /pages/forms
   grid:
     id: grid
-    name: /pattern/grid
+    name: Grid Layout
     parentId: components-nayr9a5-sm
     path: /pattern/grid
   international-address-input:

@@ -9,7 +9,7 @@
   "templates": [
     {
       "id": "react-FMCNNz7tYg",
-      "title": "<Banner>",
+      "title": "React - Banner",
       "path": "@salt-ds/core",
       "alias": "Banner",
       "templateLanguageId": "react",
@@ -45,7 +45,7 @@
     },
     {
       "id": "react-_W45TtsaSk",
-      "title": "<BannerContent>",
+      "title": "React - BannerContent",
       "path": "@salt-ds/core",
       "alias": "BannerContent",
       "templateLanguageId": "react",
@@ -69,7 +69,7 @@
     },
     {
       "id": "react-jI-RC0xK9p",
-      "title": "<BannerActions>",
+      "title": "React - BannerActions",
       "path": "@salt-ds/core",
       "alias": "BannerActions",
       "templateLanguageId": "react",

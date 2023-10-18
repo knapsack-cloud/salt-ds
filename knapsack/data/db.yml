@@ -36,6 +36,191 @@ blocks:
           type: doc
       id: 03X4dpqMu3
       size: null
+    0FDBt673Pr:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: When to use Card
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: To group related information with the same visual hierarchy.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: To present a summary of a larger idea.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: To link to more detailed information.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: When not to use Card
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: 'To display sequential information or emphasize ranking. Consider '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/list
+                                target: _self
+                              type: link
+                          text: List
+                          type: text
+                        - text: ' instead.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: 'As a stand-alone call to action. Consider '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/button
+                                target: _self
+                              type: link
+                          text: Button
+                          type: text
+                        - text: ' instead.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: For decoration purposes only.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Card groups
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            Group cards together in a layout using similar size and content length. If the content and
+                            size differs among Cards, consider layout customisation such as a Mosaic grid.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: Avoid repeating images or content in a group of Cards.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: Use the same accent placement in a group if interactable.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Interactable elements
+                  type: text
+              type: heading
+            - content:
+                - text: 'A default Card can contain any UI elements, such as actionable components like '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.saltdesignsystem.com/salt/components/button
+                        target: _self
+                      type: link
+                  text: Buttons
+                  type: text
+                - text: ' or '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.saltdesignsystem.com/salt/components/link
+                        target: _self
+                      type: link
+                  text: Links
+                  type: text
+                - text: . You can use these, for example, to link to more detailed information.
+                  type: text
+              type: paragraph
+            - content:
+                - text: Interactable Cards should not contain actionable components (
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.saltdesignsystem.com/salt/components/button
+                        target: _self
+                      type: link
+                  text: Buttons
+                  type: text
+                - text: ' or '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.saltdesignsystem.com/salt/components/link
+                        target: _self
+                      type: link
+                  text: Links
+                  type: text
+                - text: ) because the card itself is the interactive element.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Card from the core Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: import { Card, InteractableCard } from "@salt-ds/core";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Props
+                  type: text
+              type: heading
+          type: doc
+      id: 0FDBt673Pr
+      size: null
     1em7MLIohc:
       blockType: text-editor
       data:
@@ -275,6 +460,20 @@ blocks:
           type: doc
         type: success
       id: 4vJ2xg2Ji-
+      size: null
+    5Q0WpeHdPm:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: Grid Item
+                  type: text
+              type: heading
+          type: doc
+      id: 5Q0WpeHdPm
       size: null
     7U8U7QJope:
       blockType: text-editor
@@ -716,8 +915,185 @@ blocks:
                       type: paragraph
                   type: listItem
               type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Grid Layout from the core Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: import { GridLayout, GridItem } from "@salt-ds/core";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 2
+              content:
+                - text: Props
+                  type: text
+              type: heading
+            - attrs:
+                level: 3
+              content:
+                - text: Grid Layout
+                  type: text
+              type: heading
           type: doc
       id: 9NOqUy8jjN
+      size: null
+    9tj4cw60cU:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: grid
+        templateId: react-PssHY30Pvg
+      id: 9tj4cw60cU
+      size: null
+    CCJM_HYa77:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: button
+        templateId: react-4z44n8JqaB
+      id: CCJM_HYa77
+      size: null
+    CreARpX7qt:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 4
+              content:
+                - text: Using the Button component
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            Keep the text description short, ideally one to three words and no more than five. If you’re
+                            including an icon with the text, use no more than three words.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            For icons, use the Salt Figma icon library. If the icon you need isn’t available, follow the
+                            steps in our 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: >-
+                                  https://www.figma.com/file/ibGX0b0CxUcZU3pn6OrqX7/Salt%3A-Icons-(Community)?type=design&node-id=490-74&mode=design
+                                target: _self
+                              type: link
+                          text: Creating Salt icons
+                          type: text
+                        - text: ' guide.When to use Button'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            To allow the user to execute an action, such as “submit”, “merge” or “upload”. Buttons are
+                            typically placed in components and contexts such as 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/dialog
+                                target: _self
+                              type: link
+                          text: Dialog
+                          type: text
+                        - text: ', '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/card
+                                target: _self
+                              type: link
+                          text: Cards
+                          type: text
+                        - text: ' and '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/patterns/forms
+                                target: _self
+                              type: link
+                          text: Forms
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 4
+              content:
+                - text: When not to use Button
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            When the primary action is to navigate the user to another page or window, rather than
+                            triggering a function. Consider using a 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/link
+                                target: _self
+                              type: link
+                          text: Link
+                          type: text
+                        - text: ' component instead.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Button from the core Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: import { Button } from "@salt-ds/core";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Props
+                  type: text
+              type: heading
+          type: doc
+      id: CreARpX7qt
       size: null
     CyA6HHDrZ6:
       blockType: text-editor
@@ -732,6 +1108,87 @@ blocks:
               type: heading
           type: doc
       id: CyA6HHDrZ6
+      size: null
+    CyQg4_aO-r:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: Content
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            Always style button text in all caps for prominence. This avoids confusion with body text or
+                            general writing.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: Never use ampersand (&) in button text to save space.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: References
+                  type: text
+              type: heading
+            - content:
+                - text: Button Pattern (
+                  type: text
+                - marks:
+                    - attrs:
+                        class: null
+                        href: https://www.w3.org/WAI/ARIA/apg/patterns/button/
+                        target: _blank
+                      type: link
+                  text: https://www.w3.org/WAI/ARIA/apg/patterns/button/
+                  type: text
+                - text: ) W3C
+                  type: text
+              type: paragraph
+          type: doc
+      id: CyQg4_aO-r
+      size: null
+    EH_wpHdsv7:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: References
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Grid Layout has a complementary Layout grid style library for Figma. J.P. Morgan employees can
+                    enable the Salt Layout Grid library from the Assets panel. External designers can install the
+                    library from the 
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.figma.com/community/file/1184561028332139679/Salt%3A-Layout-Grid
+                        target: _self
+                      type: link
+                  text: Salt community page
+                  type: text
+                - text: .
+                  type: text
+              type: paragraph
+          type: doc
+      id: EH_wpHdsv7
       size: null
     GhlCtt9G8h:
       blockType: text-editor
@@ -853,6 +1310,50 @@ blocks:
           type: doc
       id: HlV4Gf0cii
       size: medium
+    IM4B0lvrNU:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: grid
+        templateId: react-kBdSAFJQX6
+      id: IM4B0lvrNU
+      size: null
+    JKhOMCtUb7:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - text: >-
+                    We are letting you decide on the user experience you would like to implement for text. However, you
+                    need to remain ADA compliant and provide the correct visual and auditory experience for text
+                    truncation. Truncated text must comply to 
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html
+                        target: _self
+                      type: link
+                  text: WCAG SC 1.4.4
+                  type: text
+                - text: .
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    The requirement states any visually rendered text must be accessible and displayed in full. You must
+                    ensure that users can view truncated strings in full if they want to. Consider using tooltips as a
+                    mechanism for expanding the text, or a link to open the full content on a new page.
+                  type: text
+              type: paragraph
+            - content:
+                - text: If you use truncated text, you must ensure that a screen reader can read the full value.
+                  type: text
+              type: paragraph
+          type: doc
+      id: JKhOMCtUb7
+      size: null
     KJa3VvdYDA:
       blockType: callout
       data:
@@ -1019,6 +1520,15 @@ blocks:
           titleSize: xsmall
       id: Ll89z6_9-O
       size: null
+    MCBf6pS6vC:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '900'
+        url: >-
+          https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=7%3A638&mode=design&t=rNOoBkwgkor82Tse-1
+      id: MCBf6pS6vC
+      size: null
     MefHV_ZnZn:
       blockType: text-editor
       data:
@@ -1049,6 +1559,19 @@ blocks:
           type: doc
       id: MefHV_ZnZn
       size: medium
+    NaDW1rBsgg:
+      blockType: pattern-variations
+      data:
+        demoId: wkm0QW9-BM
+        excludePropValue: ''
+        hideBlockTitle: true
+        includePropValue: ''
+        patternId: button
+        size: m
+        templateId: react-4z44n8JqaB
+        variationId: disabled
+      id: NaDW1rBsgg
+      size: null
     PZ6TAIkUtH:
       blockType: text-editor
       data:
@@ -1326,6 +1849,19 @@ blocks:
           type: doc
       id: TTA-iyIfyL
       size: null
+    UFM5_iRo_l:
+      blockType: pattern-variations
+      data:
+        demoId: FTm_YUe_Op
+        excludePropValue: ''
+        hideBlockTitle: true
+        includePropValue: ''
+        patternId: button
+        size: m
+        templateId: react-4z44n8JqaB
+        variationId: disabled
+      id: UFM5_iRo_l
+      size: null
     UfxBLjJQG9:
       blockType: text-editor
       data:
@@ -1521,6 +2057,86 @@ blocks:
           type: doc
       id: VhTu24NQMe
       size: medium
+    WoPuENRIa_:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: text
+        templateId: react-ugYVENK_N2
+      id: WoPuENRIa_
+      size: null
+    XINsOEaxw8:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - text: 'Read more on our '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: saltText saltText-primary saltLink
+                        href: https://www.saltdesignsystem.com/salt/foundations/typography
+                        target: _self
+                      type: link
+                  text: Typography Foundation
+                  type: text
+                - text: ' page.'
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - marks:
+                    - attrs:
+                        class: >-
+                          _13s3d9k0  pdl72e4 pdl72e5 pdl72e6 pdl72e7 _1loq8ls0 _651s9q5g _651s9q5q _651s9q68 _651s9q6d
+                          _651s9q6n _651s9q75 AnchorHeading_link__IPGMO
+                        href: https://www.saltdesignsystem.com/salt/components/text/usage#import
+                        target: _blank
+                      type: link
+                  text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Text from the core Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: |-
+                    import {
+                      Text,
+                      Display1,
+                      Display2,
+                      Display3,
+                      H1,
+                      H2,
+                      H3,
+                      H4,
+                      Label,
+                    } from "@salt-ds/core";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 2
+              content:
+                - text: Props
+                  type: text
+              type: heading
+          type: doc
+      id: XINsOEaxw8
+      size: null
+    YApneayxqz:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: card
+        templateId: react-M4VuHaS0vq
+      id: YApneayxqz
+      size: null
     ZBDy86NrFa:
       blockType: text-editor
       data:
@@ -1560,6 +2176,19 @@ blocks:
           type: doc
       id: ZBDy86NrFa
       size: medium
+    _WPIZDrEcM:
+      blockType: pattern-variations
+      data:
+        demoId: KyCPvfifwG
+        excludePropValue: ''
+        hideBlockTitle: false
+        includePropValue: ''
+        patternId: button
+        size: m
+        templateId: react-4z44n8JqaB
+        variationId: variant
+      id: _WPIZDrEcM
+      size: null
     _WeWlUAIPt:
       blockType: text-editor
       data:
@@ -2082,6 +2711,19 @@ blocks:
           type: doc
       id: jyIMqCMu2S
       size: null
+    l00MOAvvot:
+      blockType: pattern-variations
+      data:
+        demoId: KyCPvfifwG
+        excludePropValue: ''
+        hideBlockTitle: false
+        includePropValue: ''
+        patternId: button
+        size: m
+        templateId: react-4z44n8JqaB
+        variationId: disabled
+      id: l00MOAvvot
+      size: null
     lFLrveomS4:
       blockType: text-editor
       data:
@@ -2178,6 +2820,15 @@ blocks:
               type: paragraph
           type: doc
       id: mMbBwMk4cz
+      size: null
+    mox8MU12vT:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '900'
+        url: >-
+          https://www.figma.com/file/pt36m6WA97oit278IEw7cs/Salt%3A-Figma-Component-Guides-(Community)?type=design&node-id=978%3A76758&mode=design&t=rNOoBkwgkor82Tse-1
+      id: mox8MU12vT
       size: null
     q834nCFdXf:
       blockType: text-editor
@@ -2526,6 +3177,24 @@ demos:
       templateId: react-FKlaE0bflp
       title: Main
       type: data
+    1Z2HuAu56Q:
+      data:
+        props:
+          disabled: true
+          type: button
+          variant: cta
+        slots:
+          children:
+            - text: Button
+              type: text
+      description: Disabled button style for Calls to Action (CTAs)
+      height: 41
+      id: 1Z2HuAu56Q
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: CTA (disabled)
+      type: data
+      width: 324
     2AP1yn1awi:
       data:
         props:
@@ -2569,20 +3238,53 @@ demos:
       templateId: react-MLCOH8wsGn
       title: Main
       type: data
+    FTm_YUe_Op:
+      data:
+        props:
+          variant: secondary
+        slots:
+          children:
+            - text: Button
+              type: text
+      description: Default secondary button style
+      id: FTm_YUe_Op
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: Secondary
+      type: data
     KyCPvfifwG:
       data:
         props:
+          type: button
+          variant: cta
+        slots:
+          children:
+            - text: Button
+              type: text
+      description: Default button style for Calls to Action (CTAs)
+      height: 41
+      id: KyCPvfifwG
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: CTA
+      type: data
+      width: 324
+    NkafMUUaLr:
+      data:
+        props:
+          disabled: true
           type: button
           variant: primary
         slots:
           children:
             - text: Button
               type: text
+      description: Disabled primary button style
       height: 41
-      id: KyCPvfifwG
+      id: NkafMUUaLr
       patternId: button
       templateId: react-4z44n8JqaB
-      title: Main
+      title: Primary (disabled)
       type: data
       width: 324
     UNUxPMDKnv:
@@ -2646,6 +3348,21 @@ demos:
       templateId: react-PssHY30Pvg
       title: Main
       type: data
+    lrogeLgMr7:
+      data:
+        props:
+          disabled: true
+          variant: secondary
+        slots:
+          children:
+            - text: Button
+              type: text
+      description: Disabled secondary button style
+      id: lrogeLgMr7
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: Secondary (disabled)
+      type: data
     oUlRi2fa2C:
       data:
         props: {}
@@ -2704,6 +3421,23 @@ demos:
       title: Main
       type: data
       width: 881
+    wkm0QW9-BM:
+      data:
+        props:
+          type: button
+          variant: primary
+        slots:
+          children:
+            - text: Button
+              type: text
+      description: Default primary button style
+      height: 41
+      id: wkm0QW9-BM
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: Primary
+      type: data
+      width: 324
     xq4s_PbKWa:
       data:
         props: {}

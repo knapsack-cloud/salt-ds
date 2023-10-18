@@ -1,65 +1,71 @@
 {
   "id": "grid",
-  "title": "Grid",
-  "description": "Grid Layout manages the layout of the main content area in your application screen or webpage. It aligns content to a system of equally distributed columns and rows to create a cohesive and organized UI. When used with responsive breakpoints, Grid Layout can be used to determine how the same content is displayed across different viewport sizes or device screen sizes.",
+  "tabs": [
+    {
+      "id": "overview",
+      "type": "subPage"
+    },
+    {
+      "id": "react-kBdSAFJQX6",
+      "type": "template"
+    },
+    {
+      "id": "react-PssHY30Pvg",
+      "type": "template"
+    },
+    {
+      "id": "gRdwNn6Ffw",
+      "type": "subPage"
+    }
+  ],
+  "title": "Grid Layout",
   "statuses": {
     "main": "ready",
     "JyW35WV8A1": "NdLPwmbm2d"
   },
-  "templates": [
-    {
-      "id": "react-kBdSAFJQX6",
-      "title": "<GridLayout>",
-      "path": "@salt-ds/core",
-      "alias": "GridLayout",
-      "templateLanguageId": "react",
-      "spec": {
-        "isInferred": true
-      },
-      "demoIds": ["pENWJjCNRa"],
-      "blockIds": []
-    },
-    {
-      "id": "react-PssHY30Pvg",
-      "title": "<GridItem>",
-      "path": "@salt-ds/core",
-      "alias": "GridItem",
-      "templateLanguageId": "react",
-      "spec": {
-        "isInferred": true
-      },
-      "demoIds": ["kHidrtuUo-"],
-      "blockIds": []
-    }
-  ],
-  "tabs": [
-    {
-      "type": "subPage",
-      "id": "overview"
-    },
-    {
-      "type": "template",
-      "id": "react-kBdSAFJQX6"
-    },
-    {
-      "type": "template",
-      "id": "react-PssHY30Pvg"
-    },
-    {
-      "type": "subPage",
-      "id": "gRdwNn6Ffw"
-    }
-  ],
   "subPages": [
     {
       "id": "overview",
-      "title": "Overview",
-      "blockIds": ["9NOqUy8jjN"]
+      "title": "How to Use",
+      "blockIds": [
+        "9NOqUy8jjN",
+        "IM4B0lvrNU",
+        "5Q0WpeHdPm",
+        "9tj4cw60cU",
+        "EH_wpHdsv7"
+      ]
     },
     {
-      "title": "Accessibility",
       "id": "gRdwNn6Ffw",
+      "title": "Accessibility",
       "blockIds": ["03X4dpqMu3", "_y1-GDFZGg"]
     }
-  ]
+  ],
+  "templates": [
+    {
+      "id": "react-kBdSAFJQX6",
+      "path": "@salt-ds/core",
+      "spec": {
+        "isInferred": true
+      },
+      "alias": "GridLayout",
+      "title": "React - GridLayout",
+      "demoIds": ["pENWJjCNRa"],
+      "blockIds": [],
+      "templateLanguageId": "react"
+    },
+    {
+      "id": "react-PssHY30Pvg",
+      "path": "@salt-ds/core",
+      "spec": {
+        "isInferred": true
+      },
+      "alias": "GridItem",
+      "title": "React - GridItem",
+      "demoIds": ["kHidrtuUo-"],
+      "blockIds": [],
+      "templateLanguageId": "react"
+    }
+  ],
+  "description": "Grid Layout manages the layout of the main content area in your application screen or webpage. It aligns content to a system of equally distributed columns and rows to create a cohesive and organized UI. When used with responsive breakpoints, Grid Layout can be used to determine how the same content is displayed across different viewport sizes or device screen sizes."
 }
