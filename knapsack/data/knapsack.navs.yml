@@ -16,12 +16,19 @@ byId:
     path: /pattern/banner
   button:
     id: button
+    name: /pattern/button
     parentId: components-nayr9a5-sm
     path: /pattern/button
   card:
     id: card
+    name: /pattern/card
     parentId: components-nayr9a5-sm
     path: /pattern/card
+  combo-box:
+    id: combo-box
+    name: Combo Box 🚧
+    parentId: components-nayr9a5-sm
+    path: /pattern/combo-box
   components-nayr9a5-sm:
     id: components-nayr9a5-sm
     name: Components
@@ -82,6 +89,7 @@ order:
   - banner
   - button
   - card
+  - combo-box
   - grid
   - text
   - patterns
