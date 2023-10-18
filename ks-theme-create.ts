@@ -1,5 +1,5 @@
 import { join, relative } from "path";
-import fs from "fs";
+import fs from "fs-extra";
 import {
   KnapsackAssetSetsConfig,
   KnapsackAssetSetConfig,
@@ -14,6 +14,8 @@ const assetSetsPath = join(
   __dirname,
   "./knapsack/data/knapsack.asset-sets.json"
 );
+const themesDir = join(__dirname, "./knapsack/dist/themes");
+fs.ensureDirSync(themesDir);
 console.log("Creating theme...");
 // @ts-ignore
 const themeNames = Object.keys(tokens?.theme || {});
@@ -30,7 +32,7 @@ const themes = themeNames.map((theme) => {
   const contents = [".salt-theme.salt-theme {", ...themeTokenNames, "}"].join(
     "\n"
   );
-  const cssPath = join(__dirname, `ks-theme-${theme}.css`);
+  const cssPath = join(themesDir, `ks-theme-${theme}.css`);
   fs.writeFileSync(cssPath, contents, {
     encoding: "utf8",
   });

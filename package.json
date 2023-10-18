@@ -51,7 +51,8 @@
     "ks:test": "knapsack --config ./knapsack/knapsack.config.js test",
     "ks:import": "knapsack --config ./knapsack/knapsack.config.js react-patterns --pkg-path @salt-ds/core --importPrefix null",
     "ks:watch-tokens": "npx nodemon --watch knapsack/dist/tokens/design-tokens.css --exec 'touch ./knapsack/demo-wrapper.tsx && touch ./knapsack/data/knapsack.asset-sets.json'",
-    "ks:add-theme": "npx ts-node ./ks-theme-add.ts && npx ts-node ./ks-theme-create.ts",
+    "ks:add-theme": "npx ts-node ./ks-theme-add.ts && npm run ks:create-theme",
+    "ks:create-theme": "npx ts-node ./ks-theme-create.ts",
     "heroku-postbuild": "yarn ks:build"
   },
   "dependencies": {
@@ -75,6 +76,7 @@
     "@testing-library/cypress": "^10.0.0",
     "@testing-library/dom": "^9.0.0",
     "@testing-library/react": "^12.1.0",
+    "@types/fs-extra": "^11.0.3",
     "@types/no-scroll": "^2.1.0",
     "@types/node": "^20.0.0",
     "@types/prompts": "^2.4.7",
