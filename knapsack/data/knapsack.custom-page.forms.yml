@@ -1,3 +1,23 @@
 id: forms
 title: Forms
-blockIds: []
+blockIds:
+  - q9ksRgsX47
+  - hx0B9PHg6V
+  - TSsYji8tQf
+  - VhTu24NQMe
+  - hyBZreJdPD
+  - z6JiIbfAZi
+  - 2iSUYLbkSg
+  - UjOxjSA1l_
+  - MefHV_ZnZn
+  - bSfFZ2VWE7
+  - cWsy2pJClu
+  - 4vJ2xg2Ji-
+settings:
+  pageHeader:
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900

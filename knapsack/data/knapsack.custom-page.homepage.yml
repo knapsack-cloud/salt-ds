@@ -4,8 +4,8 @@ blockIds: []
 settings:
   pageHeader:
     backgroundColor:
-      type: value
-      colorValue: "#000000"
+      type: design-token
+      tokenName: salt.color.gray.900
     textColorTitle:
       colorValue: "#FFFFFF"
       type: value

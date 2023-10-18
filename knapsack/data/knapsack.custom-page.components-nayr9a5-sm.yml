@@ -14,4 +14,4 @@ settings:
     textColorTitle:
       type: design-token
       tokenName: salt.color.white
-    size: small
+    size: auto

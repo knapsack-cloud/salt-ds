@@ -1,3 +1,12 @@
 id: supported-platform
 title: Supported Platform
-blockIds: []
+blockIds:
+  - GhlCtt9G8h
+settings:
+  pageHeader:
+    backgroundColor:
+      type: design-token
+      tokenName: salt.color.gray.900
+    textColorTitle:
+      type: design-token
+      tokenName: salt.color.white

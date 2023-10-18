@@ -1,40 +1,69 @@
 {
   "id": "card",
+  "tabs": [
+    {
+      "id": "overview",
+      "type": "subPage"
+    },
+    {
+      "id": "HAeLjZIh6L",
+      "type": "subPage"
+    },
+    {
+      "id": "react-M4VuHaS0vq",
+      "type": "template"
+    }
+  ],
   "title": "Card",
-  "description": "",
   "statuses": {
     "main": "needsDesign",
     "JyW35WV8A1": "NdLPwmbm2d"
   },
-  "templates": [
-    {
-      "id": "react-M4VuHaS0vq",
-      "title": "<Card>",
-      "path": "@salt-ds/core",
-      "alias": "Card",
-      "templateLanguageId": "react",
-      "spec": {
-        "isInferred": true
-      },
-      "demoIds": ["tdaOkPjdv_"],
-      "blockIds": []
-    }
-  ],
-  "tabs": [
-    {
-      "type": "template",
-      "id": "react-M4VuHaS0vq"
-    },
-    {
-      "type": "subPage",
-      "id": "overview"
-    }
-  ],
   "subPages": [
     {
       "id": "overview",
-      "title": "Overview",
-      "blockIds": []
+      "title": "How to Use",
+      "blockIds": ["0FDBt673Pr", "YApneayxqz"]
+    },
+    {
+      "id": "HAeLjZIh6L",
+      "title": "Figma",
+      "blockIds": ["mox8MU12vT"]
     }
-  ]
+  ],
+  "templates": [
+    {
+      "id": "react-M4VuHaS0vq",
+      "path": "@salt-ds/core",
+      "spec": {
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {
+            "disabled": {
+              "type": "boolean",
+              "description": "**Deprecated:** Use the InteractableCard component instead\n\nIf `true`, the card will be disabled."
+            },
+            "interactable": {
+              "type": "boolean",
+              "description": "**Deprecated:** Use the InteractableCard component instead\n\nIf `true`, interactive styles will be applied to `Card`. These styles give prominence to certain content\non the page."
+            }
+          },
+          "description": "Card and Interactable Card are visually distinct content containers that displays a snapshot of information about a single subject and acts as an entry point to more detailed information."
+        },
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        }
+      },
+      "alias": "Card",
+      "title": "React",
+      "demoIds": ["tdaOkPjdv_", "FbUDe5Ls07", "wUWP3yYHy1"],
+      "blockIds": [],
+      "templateLanguageId": "react"
+    }
+  ],
+  "description": "Card and Interactable Card are visually distinct content containers that displays a snapshot of information about a single subject and acts as an entry point to more detailed information."
 }

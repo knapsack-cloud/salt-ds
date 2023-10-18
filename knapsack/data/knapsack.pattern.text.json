@@ -9,7 +9,7 @@
   "templates": [
     {
       "id": "react-ugYVENK_N2",
-      "title": "<Text>",
+      "title": "React - Text",
       "path": "@salt-ds/core",
       "alias": "Text",
       "templateLanguageId": "react",
@@ -21,7 +21,7 @@
     },
     {
       "id": "react-i_ZFFYP5ns",
-      "title": "<Display1>",
+      "title": "React - Display1",
       "path": "@salt-ds/core",
       "alias": "Display1",
       "templateLanguageId": "react",
@@ -33,7 +33,7 @@
     },
     {
       "id": "react-MLCOH8wsGn",
-      "title": "<Display2>",
+      "title": "React - Display2",
       "path": "@salt-ds/core",
       "alias": "Display2",
       "templateLanguageId": "react",
@@ -45,7 +45,7 @@
     },
     {
       "id": "react-GSnue0eqQC",
-      "title": "<Display3>",
+      "title": "React - Display3",
       "path": "@salt-ds/core",
       "alias": "Display3",
       "templateLanguageId": "react",
@@ -57,7 +57,7 @@
     },
     {
       "id": "react-h4tOq8qElr",
-      "title": "<H1>",
+      "title": "React - H1",
       "path": "@salt-ds/core",
       "alias": "H1",
       "templateLanguageId": "react",
@@ -69,19 +69,30 @@
     },
     {
       "id": "react-Hqb9POyAFM",
-      "title": "<H2>",
+      "title": "React - H2",
       "path": "@salt-ds/core",
       "alias": "H2",
       "templateLanguageId": "react",
       "spec": {
-        "isInferred": true
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {},
+          "description": "Text is a component that makes it easy to use our typography styles throughout a product or application, ensuring consistency and a unified look and feel. It includes attributes such as font size, weight, letter spacing, line height and decoration."
+        },
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        }
       },
       "demoIds": ["awWDu5tsss"],
       "blockIds": []
     },
     {
       "id": "react-FKlaE0bflp",
-      "title": "<H3>",
+      "title": "React - H3",
       "path": "@salt-ds/core",
       "alias": "H3",
       "templateLanguageId": "react",
@@ -94,43 +105,52 @@
   ],
   "tabs": [
     {
-      "type": "subPage",
-      "id": "overview"
+      "id": "overview",
+      "type": "subPage"
     },
     {
-      "type": "template",
-      "id": "react-ugYVENK_N2"
+      "id": "react-ugYVENK_N2",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "react-i_ZFFYP5ns"
+      "id": "Jby2tp4VLk",
+      "type": "subPage"
     },
     {
-      "type": "template",
-      "id": "react-MLCOH8wsGn"
+      "id": "react-i_ZFFYP5ns",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "react-GSnue0eqQC"
+      "id": "react-MLCOH8wsGn",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "react-h4tOq8qElr"
+      "id": "react-GSnue0eqQC",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "react-Hqb9POyAFM"
+      "id": "react-h4tOq8qElr",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "react-FKlaE0bflp"
+      "id": "react-Hqb9POyAFM",
+      "type": "template"
+    },
+    {
+      "id": "react-FKlaE0bflp",
+      "type": "template"
     }
   ],
   "subPages": [
     {
       "id": "overview",
       "title": "Overview",
-      "blockIds": []
+      "blockIds": ["XINsOEaxw8", "WoPuENRIa_"]
+    },
+    {
+      "id": "Jby2tp4VLk",
+      "title": "Accessibility",
+      "blockIds": ["JKhOMCtUb7"]
     }
   ]
 }
