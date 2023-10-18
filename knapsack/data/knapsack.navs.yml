@@ -1,4 +1,9 @@
 byId:
+  about:
+    id: about
+    name: About
+    parentId: root
+    path: ""
   banner:
     id: banner
     name: /pattern/banner
@@ -23,14 +28,21 @@ byId:
     id: grid
     parentId: components
     path: /pattern/grid
+  overview:
+    id: overview
+    name: Overview
+    parentId: about
+    path: /pages/overview
   text:
     id: text
     parentId: components
     path: /pattern/text
 order:
+  - about
   - components
   - banner
   - button
   - card
   - text
   - grid
+  - overview

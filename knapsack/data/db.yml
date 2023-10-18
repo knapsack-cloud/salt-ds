@@ -421,14 +421,32 @@ demos:
       type: data
   settings: {}
 settings:
-  logoUrl: ''
+  logoUrl: https://knapsack.imgix.net/site/salt/jpm-logo-c_o42fukyt.png
   theme:
     appearance:
       customFonts: []
       navigation:
-        primaryNav: {}
+        primaryNav:
+          accentColor:
+            colorValue: '#ea7319'
+            type: value
+          backgroundColor:
+            colorValue: '#000000'
+            type: value
+          fontWeight: 400
+          hoverColor:
+            colorValue: '#d1d1d1'
+            type: value
+          textColor:
+            colorValue: '#d1d1d1'
+            type: value
+          textTransform: inherit
         secondaryNav: {}
-        tabs: {}
+        tabs:
+          accentColor:
+            colorValue: '#ea7319'
+            type: value
+          textTransform: inherit
       pageElements:
         bodyText: {}
         headingLarge: {}
@@ -437,7 +455,12 @@ settings:
         headingXLarge: {}
         headingXSmall: {}
         link: {}
-        pageDescription: {}
+        pageDescription:
+          fontSize:
+            min:
+              unit: px
+              value: 14
+          textTransform: inherit
         pageTitle: {}
     version: 10
-  title: Salt DS
+  title: Salt Design System

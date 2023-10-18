@@ -1,1 +1,40 @@
-{}
+{
+  "salt": {
+    "type": "string",
+    "color": {
+      "gray": {
+        "900": {
+          "$type": "color",
+          "$value": "#161616",
+          "$description": ""
+        },
+        "type": "string",
+        "description": ""
+      },
+      "type": "string",
+      "orange": {
+        "500": {
+          "$type": "color",
+          "$value": "#ea7319",
+          "$description": ""
+        },
+        "type": "string",
+        "description": ""
+      },
+      "description": ""
+    },
+    "palette": {
+      "type": "string",
+      "warning": {
+        "type": "string",
+        "border": {
+          "$value": "{salt.color.orange.500}",
+          "$description": ""
+        },
+        "description": ""
+      },
+      "description": ""
+    },
+    "description": ""
+  }
+}
