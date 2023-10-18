@@ -3244,7 +3244,7 @@ demos:
           variant: secondary
         slots:
           children:
-            - text: Button
+            - text: View our full range of funds
               type: text
       description: Default secondary button style
       id: FTm_YUe_Op
@@ -3252,6 +3252,30 @@ demos:
       templateId: react-4z44n8JqaB
       title: Secondary
       type: data
+    FbUDe5Ls07:
+      data:
+        props: {}
+        slots:
+          children:
+            - demoId: awWDu5tsss
+              patternId: text
+              templateId: react-Hqb9POyAFM
+              type: template-demo
+            - text: >-
+                We have a commitment to provide a wide range of investment solutions to enable you to align your
+                financial goals to your values.
+              type: text
+            - demoId: FTm_YUe_Op
+              patternId: button
+              templateId: react-4z44n8JqaB
+              type: template-demo
+      height: 251
+      id: FbUDe5Ls07
+      patternId: card
+      templateId: react-M4VuHaS0vq
+      title: Actions
+      type: data
+      width: 336
     KyCPvfifwG:
       data:
         props:
@@ -3325,7 +3349,7 @@ demos:
         props: {}
         slots:
           children:
-            - text: Hello!
+            - text: Sustainable investing products
               type: text
       id: awWDu5tsss
       patternId: text
@@ -3410,17 +3434,43 @@ demos:
               patternId: text
               templateId: react-Hqb9POyAFM
               type: template-demo
-            - demoId: KyCPvfifwG
-              patternId: button
-              templateId: react-4z44n8JqaB
-              type: template-demo
+            - text: >-
+                We have a commitment to provide a wide range of investment solutions to enable you to align your
+                financial goals to your values.
+              type: text
       height: 251
       id: tdaOkPjdv_
       patternId: card
       templateId: react-M4VuHaS0vq
-      title: Main
+      title: Default
       type: data
-      width: 881
+      width: 336
+    wUWP3yYHy1:
+      data:
+        props:
+          interactable: true
+        slots:
+          children:
+            - text: ''
+              type: text
+            - demoId: UNUxPMDKnv
+              patternId: text
+              templateId: react-h4tOq8qElr
+              type: template-demo
+            - text: >-
+                We have a commitment to provide a wide range of investment solutions to enable you to align your
+                financial goals to your values.
+              type: text
+            - demoId: KyCPvfifwG
+              patternId: button
+              templateId: react-4z44n8JqaB
+              type: template-demo
+      description: ''
+      id: wUWP3yYHy1
+      patternId: card
+      templateId: react-M4VuHaS0vq
+      title: Interactable
+      type: data
     wkm0QW9-BM:
       data:
         props:
@@ -3508,6 +3558,8 @@ settings:
               unit: px
               value: 14
           textTransform: inherit
-        pageTitle: {}
+        pageTitle:
+          fontWeight: 600
+          textTransform: inherit
     version: 10
   title: Salt Design System
