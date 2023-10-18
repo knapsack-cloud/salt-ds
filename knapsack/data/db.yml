@@ -221,6 +221,262 @@ blocks:
           type: doc
       id: 0FDBt673Pr
       size: null
+    1_zUz5PlSa:
+      blockType: table
+      data:
+        content:
+          content:
+            - content:
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Key
+                              type: text
+                          type: paragraph
+                      type: tableHeader
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Function
+                              type: text
+                          type: paragraph
+                      type: tableHeader
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Tab
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: >-
+                                • If focus is above the combo box, Tab sets focus on the component. When focused, combo
+                                box has a visible text cursor and the list is opened.
+                              type: text
+                          type: paragraph
+                        - content:
+                            - text: >-
+                                • If focus is on combo box, Tab moves focus to the next focusable element in the tab
+                                order.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Shift + Tab
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: • If focus is below the combo box, Shift + Tab sets focus on the component.
+                              type: text
+                          type: paragraph
+                        - content:
+                            - text: >-
+                                • If focus is on combo box, Shift + Tab moves focus to the previous focusable element in
+                                the tab order.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Enter
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: >-
+                                • If the list is closed and combo box has focus, Enter opens the list. Focus remains on
+                                combo box.
+                              type: text
+                          type: paragraph
+                        - content:
+                            - text: • If the list is open and focus is on a list item, Enter makes a selection.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Space
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Types a space character into the input field.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Escape
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: >-
+                                • If the list is open, closes the list without making a selection, existing text in
+                                input field remains. Focus remains on combo box.
+                              type: text
+                          type: paragraph
+                        - content:
+                            - text: • If the list is closed, does nothing. Focus remains on combo box.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: ArrowUp
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Moves visual focus to the previous item in the list. Focus does not wrap.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: ArrowDown
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Moves visual focus to the next item in the list. Focus does not wrap.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Home
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: When focus is within the combo box, Home moves focus to the first list item.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: End
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: When focus is within the combo box, End moves focus to the last list item.
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+              type: table
+          type: doc
+      id: 1_zUz5PlSa
+      size: null
     1em7MLIohc:
       blockType: text-editor
       data:
@@ -377,6 +633,10 @@ blocks:
               type: image
           type: doc
       id: 3Gp6qf8--9
+      size: null
+    3OGq_AAIR9:
+      blockType: pattern-status-table-block
+      id: 3OGq_AAIR9
       size: null
     3wLtEdZy5-:
       blockType: text-editor
@@ -759,6 +1019,175 @@ blocks:
               type: table
           type: doc
       id: 7mqFXn7blQ
+      size: null
+    89OspfITfu:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 3
+              content:
+                - text: Using the Combo Box component
+                  type: text
+              type: heading
+            - attrs:
+                level: 4
+              content:
+                - text: When to use Combo Box
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            To display and select from a list of 10 or more options that don't need to be permanently
+                            visible to the user without selecting from a dropdown menu.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            When only the selected value from a set of options needs to be visible once the selection is
+                            made.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: If a workflow benefits from having a filter to quickly narrow down the available options.
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            If there are more than 100 options and you would like to prevent performance issues without
+                            virtualization.
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 4
+              content:
+                - text: When not to use Combo Box
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: >-
+                            To choose one value from a set of five to ten options that does not require filtering.
+                            Instead, use 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/dropdown
+                                target: _self
+                              type: link
+                          text: Dropdown
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: 'To select a single option from fewer than five. Instead, use '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/radio-button
+                                target: _self
+                              type: link
+                          text: Radio Button Group
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: 'To select multiple options from fewer than five. Instead, use '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/checkbox
+                                target: _self
+                              type: link
+                          text: Checkbox Group
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: >-
+                            To make an instantaneous selection between two binary choices, for example “on” and “off”.
+                            Instead, use 
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: saltText saltText-primary saltLink
+                                href: https://www.saltdesignsystem.com/salt/components/switch
+                                target: _self
+                              type: link
+                          text: Switch
+                          type: text
+                        - text: .
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Import
+                  type: text
+              type: heading
+            - content:
+                - text: 'To import Combo Box from the lab Salt package, use:'
+                  type: text
+              type: paragraph
+            - attrs:
+                language: null
+              content:
+                - text: import { ComboBoxNext } from "@salt-ds/lab";
+                  type: text
+              type: codeBlock
+            - type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: References
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: Combo Box pattern (
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://www.w3.org/WAI/ARIA/apg/patterns/combobox/
+                                target: _blank
+                              type: link
+                          text: https://www.w3.org/WAI/ARIA/apg/patterns/combobox/
+                          type: text
+                        - text: ) W3C`
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+          type: doc
+      id: 89OspfITfu
       size: null
     8CQeQjk0oG:
       blockType: callout
@@ -1353,6 +1782,20 @@ blocks:
               type: paragraph
           type: doc
       id: JKhOMCtUb7
+      size: null
+    JhoyxmTqJ2:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Keyboard Interactions
+                  type: text
+              type: heading
+          type: doc
+      id: JhoyxmTqJ2
       size: null
     KJa3VvdYDA:
       blockType: callout
@@ -2973,10 +3416,6 @@ blocks:
           type: doc
       id: qfQ2PHSzv-
       size: medium
-    rGvxvE48dB:
-      blockType: pattern-status-table-block
-      id: rGvxvE48dB
-      size: null
     tLdkaLQVlQ:
       blockType: text-editor
       data:
@@ -3207,13 +3646,13 @@ demos:
               patternId: banner
               templateId: react-_W45TtsaSk
               type: template-demo
-      height: 156
+      height: 468
       id: 2AP1yn1awi
       patternId: banner
       templateId: react-FMCNNz7tYg
       title: Main
       type: data
-      width: 881
+      width: 572
     5E0ZqlFl--:
       data:
         props: {}
@@ -3262,8 +3701,8 @@ demos:
               templateId: react-Hqb9POyAFM
               type: template-demo
             - text: >-
-                We have a commitment to provide a wide range of investment solutions to enable you to align your
-                financial goals to your values.
+                <p>We have a commitment to provide a wide range of investment solutions to enable you to align your
+                financial goals to your values.</p>
               type: text
             - demoId: FTm_YUe_Op
               patternId: button
@@ -3444,7 +3883,7 @@ demos:
       templateId: react-M4VuHaS0vq
       title: Default
       type: data
-      width: 336
+      width: 249
     wUWP3yYHy1:
       data:
         props:
@@ -3458,8 +3897,8 @@ demos:
               templateId: react-h4tOq8qElr
               type: template-demo
             - text: >-
-                We have a commitment to provide a wide range of investment solutions to enable you to align your
-                financial goals to your values.
+                <p>We have a commitment to provide a wide range of investment solutions to enable you to align your
+                financial goals to your values.</p>
               type: text
             - demoId: KyCPvfifwG
               patternId: button
