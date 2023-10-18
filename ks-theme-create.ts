@@ -15,7 +15,8 @@ const assetSetsPath = join(
   "./knapsack/data/knapsack.asset-sets.json"
 );
 console.log("Creating theme...");
-const themeNames = Object.keys(tokens.theme);
+// @ts-ignore
+const themeNames = Object.keys(tokens?.theme || {});
 
 const themes = themeNames.map((theme) => {
   console.log(`Making theme ${theme}`);

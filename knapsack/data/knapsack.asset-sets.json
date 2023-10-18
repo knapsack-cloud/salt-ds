@@ -2,9 +2,8 @@
   "globalAssetSetIds": [
     "salt-light",
     "salt-dark",
-    "check",
-    "coin",
-    "dollar"
+    "commercial",
+    "retail"
   ],
   "allAssetSets": {
     "salt-light": {
@@ -19,39 +18,27 @@
       "inlineJs": "document.body.setAttribute('data-mode', 'dark');",
       "assets": []
     },
-    "check": {
-      "id": "check",
-      "title": "check",
+    "commercial": {
+      "id": "commercial",
+      "title": "commercial",
       "assets": [
         {
           "src": "../dist/tokens/design-tokens.css"
         },
         {
-          "src": "../../ks-theme-check.css"
+          "src": "../../ks-theme-commercial.css"
         }
       ]
     },
-    "coin": {
-      "id": "coin",
-      "title": "coin",
+    "retail": {
+      "id": "retail",
+      "title": "retail",
       "assets": [
         {
           "src": "../dist/tokens/design-tokens.css"
         },
         {
-          "src": "../../ks-theme-coin.css"
-        }
-      ]
-    },
-    "dollar": {
-      "id": "dollar",
-      "title": "dollar",
-      "assets": [
-        {
-          "src": "../dist/tokens/design-tokens.css"
-        },
-        {
-          "src": "../../ks-theme-dollar.css"
+          "src": "../../ks-theme-retail.css"
         }
       ]
     }

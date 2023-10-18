@@ -74,65 +74,215 @@
     "description": ""
   },
   "theme": {
-    "description": "",
-    "type": "string",
-    "coin": {
-      "description": "",
-      "type": "string",
+    "commercial": {
       "actionable": {
-        "description": "",
-        "type": "string",
         "primary": {
-          "description": "",
-          "type": "string",
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
           "background": {
-            "$value": "#510433",
-            "$description": "",
-            "$type": "color"
+            "$type": "color",
+            "$value": "#1ef79f",
+            "$description": ""
           },
           "background hover": {
-            "$value": "#d1e909",
-            "$description": "",
-            "$type": "color"
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "cta": {
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "secondary": {
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
           }
         }
       }
     },
-    "dollar": {
-      "description": "",
-      "type": "string",
+    "retail": {
       "actionable": {
-        "description": "",
-        "type": "string",
         "primary": {
-          "description": "",
-          "type": "string",
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
           "background": {
-            "$value": "#15abd6",
-            "$description": "",
-            "$type": "color"
+            "$type": "color",
+            "$value": "#000000"
           },
           "background hover": {
-            "$value": "#09dee8",
-            "$description": "",
-            "$type": "color"
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
           }
-        }
-      }
-    },
-    "check": {
-      "description": "",
-      "type": "string",
-      "actionable": {
-        "description": "",
-        "type": "string",
-        "primary": {
-          "description": "",
-          "type": "string",
+        },
+        "cta": {
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
           "background": {
-            "$value": "#ee0000",
-            "$description": "",
-            "$type": "color"
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "secondary": {
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
           }
         }
       }
