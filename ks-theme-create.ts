@@ -42,6 +42,10 @@ const themes = themeNames.map((theme) => {
   };
 });
 
+function capitalizeFirstLetter(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 const assetSets: KnapsackAssetSetsConfig = {
   globalAssetSetIds: ["salt-light", "salt-dark", ...themeNames],
   allAssetSets: Object.fromEntries([
@@ -66,7 +70,7 @@ const assetSets: KnapsackAssetSetsConfig = {
     ...themes.map(({ cssPath, themeName }) => {
       const assetSet: KnapsackAssetSetConfig = {
         id: themeName,
-        title: themeName,
+        title: capitalizeFirstLetter(themeName),
         assets: [
           {
             src: "../dist/tokens/design-tokens.css",
