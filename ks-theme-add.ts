@@ -26,7 +26,7 @@ async function add() {
   if (typeof themeNameInput !== "string") {
     throw new Error("themeNameInput is not a string");
   }
-  const themeName = themeNameInput.trim();
+  const themeName = themeNameInput.trim().toLowerCase();
 
   const basicToken = {
     $type: "color",

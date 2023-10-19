@@ -2,6 +2,7 @@
   "globalAssetSetIds": [
     "salt-light",
     "salt-dark",
+    "barbie",
     "commercial",
     "retail"
   ],
@@ -17,6 +18,18 @@
       "title": "Salt (dark)",
       "inlineJs": "document.body.setAttribute('data-mode', 'dark');",
       "assets": []
+    },
+    "barbie": {
+      "id": "barbie",
+      "title": "Barbie",
+      "assets": [
+        {
+          "src": "../dist/tokens/design-tokens.css"
+        },
+        {
+          "src": "../dist/themes/ks-theme-barbie.css"
+        }
+      ]
     },
     "commercial": {
       "id": "commercial",
