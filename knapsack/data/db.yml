@@ -3918,7 +3918,7 @@ demos:
     hO1eU0E7fu:
       data:
         props:
-          interactable: true
+          interactable: false
         slots:
           children:
             - demoId: ieYT9IxU78
@@ -3929,7 +3929,7 @@ demos:
                 <p>Your presence and input has helped to make this day so valuable for all. Thank you for being a part
                 of our community.</p>
 
-                <p> Want to keep the conversation and get deeper into <i>your</i> team's situation?</p>
+                <p> Want to keep the conversation going and get deeper into <i>your</i> team's situation?</p>
               type: text
             - demoId: jGhpFvJLGB
               patternId: button
