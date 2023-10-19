@@ -60,7 +60,13 @@
       },
       "alias": "Card",
       "title": "React",
-      "demoIds": ["tdaOkPjdv_", "FbUDe5Ls07", "wUWP3yYHy1", "I9wIo4P7It"],
+      "demoIds": [
+        "tdaOkPjdv_",
+        "FbUDe5Ls07",
+        "wUWP3yYHy1",
+        "I9wIo4P7It",
+        "hO1eU0E7fu"
+      ],
       "blockIds": [],
       "templateLanguageId": "react"
     }
