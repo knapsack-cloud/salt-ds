@@ -3708,6 +3708,16 @@ demos:
       templateId: react-MLCOH8wsGn
       title: Main
       type: data
+    8NlAGNZkYP:
+      data:
+        props: {}
+        slots: {}
+      description: A description
+      id: 8NlAGNZkYP
+      patternId: grid
+      templateId: react-PssHY30Pvg
+      title: New Variation
+      type: data
     FTm_YUe_Op:
       data:
         props:
@@ -3840,6 +3850,21 @@ demos:
       templateId: react-h4tOq8qElr
       title: Main
       type: data
+    WxD1j7oGB6:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Thank you for joining us!
+              type: text
+      description: A description
+      height: 62
+      id: WxD1j7oGB6
+      patternId: banner
+      templateId: react-_W45TtsaSk
+      title: Thank you
+      type: data
+      width: 492
     _2PSFV0BFV:
       data:
         props: {}
@@ -3890,6 +3915,65 @@ demos:
       title: Primary Action
       type: data
       width: 324
+    hO1eU0E7fu:
+      data:
+        props:
+          interactable: true
+        slots:
+          children:
+            - demoId: ieYT9IxU78
+              patternId: text
+              templateId: react-h4tOq8qElr
+              type: template-demo
+            - text: >-
+                <p>Your presence and input has helped to make this day so valuable for all. Thank you for being a part
+                of our community.</p>
+
+                <p> Want to keep the conversation and get deeper into your team's specific situation?</p>
+              type: text
+            - demoId: jGhpFvJLGB
+              patternId: button
+              templateId: react-4z44n8JqaB
+              type: template-demo
+      description: ''
+      height: 259
+      id: hO1eU0E7fu
+      patternId: card
+      templateId: react-M4VuHaS0vq
+      title: Summit Thank You
+      type: data
+      width: 323
+    ieYT9IxU78:
+      data:
+        props: {}
+        slots:
+          children:
+            - text: Thank You!
+              type: text
+      height: 81
+      id: ieYT9IxU78
+      patternId: text
+      templateId: react-h4tOq8qElr
+      title: Summit Thank You
+      type: data
+      width: 227
+    jGhpFvJLGB:
+      data:
+        props:
+          type: button
+          variant: cta
+        slots:
+          children:
+            - text: Schedule a Knapsack Consult
+              type: text
+      description: Default primary button style
+      height: 41
+      id: jGhpFvJLGB
+      patternId: button
+      templateId: react-4z44n8JqaB
+      title: Summit Thank You
+      type: data
+      width: 324
     jkn7enAJAD:
       data:
         props:
@@ -3913,15 +3997,21 @@ demos:
           verticalAlignment: stretch
         slots:
           children:
-            - demoId: tdaOkPjdv_
+            - demoId: 2AP1yn1awi
+              patternId: banner
+              templateId: react-FMCNNz7tYg
+              type: template-demo
+            - demoId: wUWP3yYHy1
               patternId: card
               templateId: react-M4VuHaS0vq
               type: template-demo
+      height: 300
       id: kHidrtuUo-
       patternId: grid
       templateId: react-PssHY30Pvg
       title: Main
       type: data
+      width: 396
     lrogeLgMr7:
       data:
         props:
@@ -4049,6 +4139,25 @@ demos:
       templateId: react-jI-RC0xK9p
       title: Main
       type: data
+    yS21qyQE9B:
+      data:
+        props:
+          defaultChecked: false
+          status: success
+          variant: secondary
+        slots:
+          children:
+            - demoId: WxD1j7oGB6
+              patternId: banner
+              templateId: react-_W45TtsaSk
+              type: template-demo
+      height: 468
+      id: yS21qyQE9B
+      patternId: banner
+      templateId: react-FMCNNz7tYg
+      title: Thank you
+      type: data
+      width: 572
   settings: {}
 settings:
   favicon: https://knapsack.imgix.net/site/salt/favicon-lbqbr139np.png
