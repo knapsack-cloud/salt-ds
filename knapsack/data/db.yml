@@ -1078,7 +1078,7 @@ blocks:
                     - content:
                         - text: >-
                             To choose one value from a set of five to ten options that does not require filtering.
-                            Instead, use 
+                            Instead, use
                           type: text
                         - marks:
                             - attrs:
@@ -1128,7 +1128,7 @@ blocks:
                     - content:
                         - text: >-
                             To make an instantaneous selection between two binary choices, for example “on” and “off”.
-                            Instead, use 
+                            Instead, use
                           type: text
                         - marks:
                             - attrs:
@@ -3962,14 +3962,17 @@ demos:
     jGhpFvJLGB:
       data:
         props:
+          isKnapsackContactButton: true
           type: button
           variant: cta
         slots:
           children:
-            - text: Schedule a Knapsack Consult
+            - text: >-
+                <a href="https://www.knapsack.cloud/connect-with-us" target="_blank" style={{color: 'white',
+                textDecoration: 'none'}}>Schedule a Knapsack Consult</a>
               type: text
       description: Default primary button style
-      height: 41
+      height: 251
       id: jGhpFvJLGB
       patternId: button
       templateId: react-4z44n8JqaB
