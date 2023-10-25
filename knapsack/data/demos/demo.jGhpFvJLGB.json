@@ -1,0 +1,25 @@
+{
+  "data": {
+    "props": {
+      "isKnapsackContactButton": true,
+      "type": "button",
+      "variant": "cta"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "<a href=\"https://www.knapsack.cloud/connect-with-us\" target=\"_blank\" style={{color: 'white', textDecoration: 'none'}}>Schedule a Knapsack Consult</a>",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default primary button style",
+  "height": 251,
+  "id": "jGhpFvJLGB",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "Summit Thank You",
+  "type": "data",
+  "width": 324
+}

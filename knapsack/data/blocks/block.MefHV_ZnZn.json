@@ -1,0 +1,55 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "1b Secondary field on secondary background",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Alternate option to form 1a, but not a common combination.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing secondary field on secondary background",
+            "src": "https://www.saltdesignsystem.com/img/patterns/forms/field_background_2.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing secondary field on secondary background",
+            "src": "https://www.saltdesignsystem.com/img/patterns/forms/field_background_4.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "MefHV_ZnZn",
+  "size": "medium"
+}

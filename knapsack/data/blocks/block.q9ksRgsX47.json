@@ -1,0 +1,180 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Forms allow you to capture data, gather opinions and receive information in a consistent format.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "This pattern provides practical and visually enriched guidelines for creating forms that are flexible to business domain, user experience, and channel.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Form layout",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Form controls align to a column layout with an even number of columns across breakpoints.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "A form control consists of a ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://storybook.saltdesignsystem.com/?path=/story/documentation-core-form-field--page",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Form Field",
+              "type": "text"
+            },
+            {
+              "text": " wrapped around:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "An Input",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "A Combo Box",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "A Dropdown",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "A Radio Button or Checkbox Group",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hardBreak"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://www.saltdesignsystem.com/img/patterns/forms/form_layout_1.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "*You can find more information on the Salt spacing system ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/foundations/spacing",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "here",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "q9ksRgsX47",
+  "size": null
+}

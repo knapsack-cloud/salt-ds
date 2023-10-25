@@ -1,0 +1,39 @@
+{
+  "blockType": "shortcut-tiles",
+  "data": {
+    "shortcuts": [
+      {
+        "description": "Follow our step-by-step process to access our Figma libraries. If you’re a developer, we show you how to install and start using the Salt packages.",
+        "id": "qputE0TMHk",
+        "image": "https://knapsack.imgix.net/site/salt/group-30-dlqt-1oirw.png",
+        "link": {
+          "name": "About Salt",
+          "path": "/pages/about-salt"
+        },
+        "title": "Design and develop"
+      },
+      {
+        "description": "Our suite of UI components is built with accessibility in mind. Each component is thoroughly tested before release and optimized for multiple use cases.",
+        "id": "1RP8akJdZx",
+        "image": "https://knapsack.imgix.net/site/salt/group-29-cl4h-ifg7k.png",
+        "link": {
+          "name": "Components",
+          "path": "/pages/components-nayr9a5-sm"
+        },
+        "title": "Browse our components"
+      },
+      {
+        "description": "Find out how we prioritize our work, see which components and patterns are planned for delivery in the coming months, and get updates about the Salt site and legacy UI Toolkit.",
+        "id": "CnnJnYZ7Mu",
+        "image": "https://knapsack.imgix.net/site/salt/group-31-g9nyhke59x.png",
+        "link": {
+          "name": "Roadmap",
+          "path": "/pages/roadmap"
+        },
+        "title": "Our roadmap"
+      }
+    ]
+  },
+  "id": "arB7ngjLxC",
+  "size": null
+}

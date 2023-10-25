@@ -1,0 +1,46 @@
+{
+  "blockType": "callout",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Do",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "We recommend horizontal navigation when you have fewer than eight items. Otherwise, consider a vertical group of items.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    },
+    "type": "success"
+  },
+  "id": "TE7XiTMcMp",
+  "size": null
+}

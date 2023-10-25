@@ -1,0 +1,46 @@
+{
+  "blockType": "callout",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Do",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Use a bordered multiline field when Form Field fill matches the background fill.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    },
+    "type": "success"
+  },
+  "id": "4vJ2xg2Ji-",
+  "size": null
+}

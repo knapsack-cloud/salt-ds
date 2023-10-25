@@ -1,0 +1,96 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "1a Primary field on primary background",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Effective for a form that:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Is 'non-specialist' or infrequently used.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Isn't space constrained/ doesn't need to be entirely visible.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Has minimal sections/ columns.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing primary field on primary background",
+            "src": "https://www.saltdesignsystem.com/img/patterns/forms/field_background_1.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing secondary field on primary background",
+            "src": "https://www.saltdesignsystem.com/img/patterns/forms/field_background_3.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "UjOxjSA1l_",
+  "size": "medium"
+}

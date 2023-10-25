@@ -1,0 +1,53 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Horizontal navigation",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Default",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "By default, the navigation item has a horizontal orientation and hugs its content, but you can customize it so that its container can fit any preferred width.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing horizontal navigation",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/horizontal_nav.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "UfxBLjJQG9",
+  "size": null
+}

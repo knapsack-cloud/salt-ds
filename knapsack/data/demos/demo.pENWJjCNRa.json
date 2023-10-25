@@ -1,0 +1,37 @@
+{
+  "data": {
+    "props": {
+      "columns": "12",
+      "rows": "1"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "kHidrtuUo-",
+          "patternId": "grid",
+          "templateId": "react-PssHY30Pvg",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "kHidrtuUo-",
+          "patternId": "grid",
+          "templateId": "react-PssHY30Pvg",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "kHidrtuUo-",
+          "patternId": "grid",
+          "templateId": "react-PssHY30Pvg",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "height": 358,
+  "id": "pENWJjCNRa",
+  "patternId": "grid",
+  "templateId": "react-kBdSAFJQX6",
+  "title": "Main",
+  "type": "data",
+  "width": 642
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "props": {
+      "disabled": true,
+      "type": "button",
+      "variant": "cta"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Disabled button style for Calls to Action (CTAs)",
+  "height": 41,
+  "id": "1Z2HuAu56Q",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "CTA (disabled)",
+  "type": "data",
+  "width": 324
+}

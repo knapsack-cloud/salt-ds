@@ -1,0 +1,46 @@
+{
+  "blockType": "callout",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Do",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "In both cases, align the form to a layout grid within the viewport.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    },
+    "type": "success"
+  },
+  "id": "z6JiIbfAZi",
+  "size": null
+}

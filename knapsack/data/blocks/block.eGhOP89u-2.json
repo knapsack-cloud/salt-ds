@@ -1,0 +1,78 @@
+{
+  "blockType": "callout",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Do",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Use a layout grid for the full width of your app’s resolution if it is not responsive, or just for the content area if it is.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Use ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/foundations/responsiveness#breakpoints",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Salt breakpoints",
+                      "type": "text"
+                    },
+                    {
+                      "text": " to determine how the navigation will display at various viewport sizes.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    },
+    "type": "success"
+  },
+  "id": "eGhOP89u-2",
+  "size": null
+}

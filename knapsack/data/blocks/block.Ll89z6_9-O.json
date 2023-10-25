@@ -1,0 +1,39 @@
+{
+  "blockType": "shortcut-tiles",
+  "data": {
+    "gridStyles": {
+      "centered": false,
+      "columns": "3"
+    },
+    "shortcuts": [
+      {
+        "description": "Research is vital to our efforts to build a fast, modern and open design system",
+        "id": "jfUbF_p9gG",
+        "image": "https://knapsack.imgix.net/site/salt/group-28-uomwf3gz0g.png",
+        "link": {
+          "name": "Research Approach",
+          "path": "/pages/research-approach"
+        },
+        "title": "Research Approach"
+      },
+      {
+        "description": "The roadmap details our plans and priorities for future development.",
+        "id": "v0_xArtwqW",
+        "image": "https://knapsack.imgix.net/site/salt/group-27-tfgxalkasr.png",
+        "link": {
+          "name": "Roadmap",
+          "path": "/pages/roadmap"
+        },
+        "title": "Roadmap"
+      }
+    ],
+    "tileStyles": {
+      "imageSize": "small",
+      "outlined": true,
+      "rounded": true,
+      "titleSize": "xsmall"
+    }
+  },
+  "id": "Ll89z6_9-O",
+  "size": null
+}

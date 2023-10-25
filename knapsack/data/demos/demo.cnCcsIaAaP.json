@@ -1,0 +1,24 @@
+{
+  "data": {
+    "props": {
+      "type": "button",
+      "variant": "primary"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "View our full range of funds",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default primary button style",
+  "height": 41,
+  "id": "cnCcsIaAaP",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "Primary Action",
+  "type": "data",
+  "width": 324
+}

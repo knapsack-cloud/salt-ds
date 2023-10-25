@@ -1,0 +1,26 @@
+{
+  "data": {
+    "props": {
+      "defaultChecked": false,
+      "status": "success",
+      "variant": "primary"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "a4KXMasETv",
+          "patternId": "banner",
+          "templateId": "react-_W45TtsaSk",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "height": 468,
+  "id": "2AP1yn1awi",
+  "patternId": "banner",
+  "templateId": "react-FMCNNz7tYg",
+  "title": "Main",
+  "type": "data",
+  "width": 572
+}

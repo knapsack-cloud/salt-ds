@@ -1,0 +1,39 @@
+{
+  "data": {
+    "props": {
+      "interactable": true
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "",
+          "type": "text"
+        },
+        {
+          "demoId": "awWDu5tsss",
+          "patternId": "text",
+          "templateId": "react-Hqb9POyAFM",
+          "type": "template-demo"
+        },
+        {
+          "text": "<p>We have a commitment to provide a wide range of investment solutions to enable you to align your financial goals to your values.</p>",
+          "type": "text"
+        },
+        {
+          "demoId": "Q6PRdYWAph",
+          "patternId": "button",
+          "templateId": "react-4z44n8JqaB",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "height": 259,
+  "id": "wUWP3yYHy1",
+  "patternId": "card",
+  "templateId": "react-M4VuHaS0vq",
+  "title": "Interactable",
+  "type": "data",
+  "width": 323
+}

@@ -1,0 +1,74 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "Horizontal navigation",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Horizontal navigation is most commonly found within an application header, at the top of a page. Use it when you need a navigation that:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Is always displayed in a prominent and consistent location.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Affords movement from one set of content to another regardless of where the user is in the website or app.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing navigation horizontal structure",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/horizontal_navigation.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "eUo1VEhpZ1",
+  "size": "medium"
+}

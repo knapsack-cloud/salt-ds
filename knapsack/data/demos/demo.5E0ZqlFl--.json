@@ -1,0 +1,18 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "text": "Hello!",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "5E0ZqlFl--",
+  "patternId": "text",
+  "templateId": "react-GSnue0eqQC",
+  "title": "Main",
+  "type": "data"
+}

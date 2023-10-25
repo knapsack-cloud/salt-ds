@@ -1,0 +1,167 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Vertical navigation",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "A common navigation practice is to have the primary categories that represent the main sections of your website or application in a vertical layout, usually placed on the left side of the screen. These primary categories can expand to reveal secondary categories or subcategories when selected, creating a hierarchical structure.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "The number of vertical navigation levels depends on the complexity and depth of your website or application's information architecture (IA). We recommended to be specific about your IA groupings to avoid ambiguity. When navigation is limited to two or three levels, it allows users to quickly navigate through the main categories and access the relevant subcategories or pages without overwhelming them with too many choices. However, when your IA requires wider navigation, you can extend it to more levels.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Single-level group",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a single level navigation",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/single_level.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "text": "A single-level vertical navigation group provides a simple, single-level list of links that users can select within an application or website.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Multi-level group",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "You can use a navigation item as a parent, which nests other navigation items inside it. Parent navigation items include a chevron on the right-hand side.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a multi level navigation collapsed",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/multi_level.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Group overview page",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Clicking a parent item will not navigate the user but expand the group. If an overview page is required it should be the first in the group. Overview pages will not include a chevron on the right-hand side.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing group overview",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/group_overview_page_toggle_on.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Combined navigation",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Combined navigation can be useful in website or application contexts when you want to provide users with a versatile and efficient way to navigate complex content or features. It's ideal when your experience comprises of multiple sub-apps, pages or sections which in turn also require their own navigation.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "With icons",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a combined navigation",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/combined_navigation_example.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "LdnkYbm96h",
+  "size": null
+}

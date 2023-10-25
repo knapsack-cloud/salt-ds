@@ -1,0 +1,22 @@
+{
+  "data": {
+    "props": {
+      "disabled": true,
+      "variant": "secondary"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Disabled secondary button style",
+  "id": "lrogeLgMr7",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "Secondary (disabled)",
+  "type": "data"
+}

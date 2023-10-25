@@ -1,0 +1,51 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Available and upcoming components",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Salt is under active development and new components are released on a regular basis. Check out our ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/about/roadmap",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "roadmap",
+              "type": "text"
+            },
+            {
+              "text": " to see what's coming next.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "Sm4W4dFYTt",
+  "size": null
+}

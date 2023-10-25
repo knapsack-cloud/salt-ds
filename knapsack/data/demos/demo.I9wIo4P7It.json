@@ -1,0 +1,38 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "demoId": "2AP1yn1awi",
+          "patternId": "banner",
+          "templateId": "react-FMCNNz7tYg",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "awWDu5tsss",
+          "patternId": "text",
+          "templateId": "react-Hqb9POyAFM",
+          "type": "template-demo"
+        },
+        {
+          "text": "<p>We have a commitment to provide a wide range of investment solutions to enable you to align your financial goals to your values.</p>",
+          "type": "text"
+        },
+        {
+          "demoId": "Q6PRdYWAph",
+          "patternId": "button",
+          "templateId": "react-4z44n8JqaB",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "height": 247,
+  "id": "I9wIo4P7It",
+  "patternId": "card",
+  "templateId": "react-M4VuHaS0vq",
+  "title": "Actions - Success",
+  "type": "data",
+  "width": 456
+}

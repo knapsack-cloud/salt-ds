@@ -1,0 +1,24 @@
+{
+  "data": {
+    "props": {
+      "type": "button",
+      "variant": "primary"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default primary button style",
+  "height": 41,
+  "id": "wkm0QW9-BM",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "Primary",
+  "type": "data",
+  "width": 324
+}

@@ -1,0 +1,100 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Navigation layout",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Fixed navigation pane",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Typically, the vertical navigation remains fixed in width when the user resizes the browser. You can set it to the width of your choice but you should consider the overall label length, theme, density, and the screen size you are designing for when making your decision.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "When your application is responsive, the content area should use its own layout grid. As the user adjusts their browser width, the navigation will remain fixed until reaching a specified breakpoint, with only the content area adapting responsively based on the viewport.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a fixed navigation pane",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/fixed_navigation_pane.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Responsive navigation pane",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "The vertical navigation component can be configured for fully responsive application experiences. Use the underlying layout grid to set a minimum width for your navigation pane and adjust your content area based on your predefined breakpoints.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Show underlying grid",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a responsive navigation",
+            "src": "https://www.saltdesignsystem.com/img/patterns/navigation/responsive_navigation_pane.png",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "jyIMqCMu2S",
+  "size": null
+}

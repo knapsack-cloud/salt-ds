@@ -1,0 +1,57 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "We are letting you decide on the user experience you would like to implement for text. However, you need to remain ADA compliant and provide the correct visual and auditory experience for text truncation. Truncated text must comply to",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "WCAG SC 1.4.4",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "The requirement states any visually rendered text must be accessible and displayed in full. You must ensure that users can view truncated strings in full if they want to. Consider using tooltips as a mechanism for expanding the text, or a link to open the full content on a new page.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "If you use truncated text, you must ensure that a screen reader can read the full value.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "JKhOMCtUb7",
+  "size": null
+}

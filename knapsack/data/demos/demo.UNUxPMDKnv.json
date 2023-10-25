@@ -1,0 +1,18 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "text": "Sustainable investing products",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "UNUxPMDKnv",
+  "patternId": "text",
+  "templateId": "react-h4tOq8qElr",
+  "title": "Main",
+  "type": "data"
+}

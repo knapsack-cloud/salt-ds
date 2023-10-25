@@ -1,0 +1,75 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Salt is a pattern-driven system. This means we provide a set of simple, high-quality, context-agnostic components and show you how to put them together in different ways, as “patterns”, to solve a specific business problem.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "We recognize the need for UI solutions that are tailored to line of business, product, or persona. Salt Patterns provide you with solutions that you can use “out of the box” or easily modify to cater for nuances in your product experience.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Each pattern has examples showing how you can put ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/components/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Salt Components",
+              "type": "text"
+            },
+            {
+              "text": " together following the ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/foundations/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Salt Foundations",
+              "type": "text"
+            },
+            {
+              "text": ". We also offer comprehensive supporting documentation to explain how to use the pattern, how to drive the pattern with business logic, and how to adjust it to suit your business case.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "TTA-iyIfyL",
+  "size": null
+}

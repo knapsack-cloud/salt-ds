@@ -1,0 +1,84 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Our components are built with accessibility in mind. Each one has comprehensive supporting documentation with usage guidance, examples and props. We’re constantly adding new components so check back if what you need isn’t available or",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/support-and-contributions/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "get in touch",
+              "type": "text"
+            },
+            {
+              "text": " if you have any feedback or requests.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "In addition to the public libraries in the ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.figma.com/@jpmorgan_salt",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Figma Community",
+              "type": "text"
+            },
+            {
+              "text": ", if you’re a J.P. Morgan employee, you can view the ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.figma.com/files/project/72279506",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Salt component files",
+              "type": "text"
+            },
+            {
+              "text": " in Figma when logged in to the JPMC network. They include accessibility and design specifications for each component, with designs for light and dark modes in all four densities.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "UtoTZRz8NG",
+  "size": null
+}

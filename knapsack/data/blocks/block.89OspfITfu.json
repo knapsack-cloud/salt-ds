@@ -1,0 +1,327 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "Using the Combo Box component",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "When to use Combo Box",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "To display and select from a list of 10 or more options that don't need to be permanently visible to the user without selecting from a dropdown menu.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "When only the selected value from a set of options needs to be visible once the selection is made.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "If a workflow benefits from having a filter to quickly narrow down the available options.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "If there are more than 100 options and you would like to prevent performance issues without virtualization.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "When not to use Combo Box",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "To choose one value from a set of five to ten options that does not require filtering. Instead, use",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/components/dropdown",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Dropdown",
+                      "type": "text"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "To select a single option from fewer than five. Instead, use ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/components/radio-button",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Radio Button Group",
+                      "type": "text"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "To select multiple options from fewer than five. Instead, use ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/components/checkbox",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Checkbox Group",
+                      "type": "text"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "To make an instantaneous selection between two binary choices, for example “on” and “off”. Instead, use",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/components/switch",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Switch",
+                      "type": "text"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "Import",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "To import Combo Box from the lab Salt package, use:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "import { ComboBoxNext } from \"@salt-ds/lab\";",
+              "type": "text"
+            }
+          ],
+          "type": "codeBlock"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "References",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Combo Box pattern (",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+                      "type": "text"
+                    },
+                    {
+                      "text": ") W3C`",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "89OspfITfu",
+  "size": null
+}

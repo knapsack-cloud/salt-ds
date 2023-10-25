@@ -1,0 +1,38 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Spain",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing Dynamic template with Spain selected",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/dynamic_spain.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "3wLtEdZy5-",
+  "size": "medium"
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "props": {
+      "variant": "secondary"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "View our full range of funds",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default secondary button style",
+  "height": 55,
+  "id": "jkn7enAJAD",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "Secondary Action",
+  "type": "data",
+  "width": 274
+}

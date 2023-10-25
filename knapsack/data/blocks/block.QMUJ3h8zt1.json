@@ -1,0 +1,229 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "type": "hardBreak"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Adding an additional address",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "There may be cases where an additional address form is needed:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "The client's address may be different from the business address. We recommend a checkbox after the first form for users to select if they need the additional form.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "In some countries, such as China, users must input the address twice: first in English and then in Chinese. Add an additional form in the local language.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing additional address input",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/additional_address.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Customized Address Forms",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "In some cases, you need to customize the address form while considering other information you're collecting based on the product scope.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "An additional form e.g., House No., may be needed.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "You can use the address form alongside international phone number, email address, banking details, time zone selection and other fields.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a customized address form",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/customized_address_form.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Toggling the local language",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "You can add a switch to toggle localization after the country selection, enabling users to compare the form with another address or data source.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a form with a show local language toggle off",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/toggle_language_1.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing a form with a show local language toggle on",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/toggle_language_2.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Expanding the pattern",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "If you need to expand the pattern, for example, to have localized Dynamic templates for more countries or regions, please",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/support-and-contributions/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "reach out to the team",
+              "type": "text"
+            },
+            {
+              "text": " to discuss.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "QMUJ3h8zt1",
+  "size": null
+}

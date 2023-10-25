@@ -1,0 +1,38 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Germany",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing Dynamic template with Germany selected",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/dynamic_germany.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "fEtPLvnN9y",
+  "size": "medium"
+}

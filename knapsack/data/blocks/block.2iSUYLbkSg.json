@@ -1,0 +1,202 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Field vs. background fill",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Salt provides primary and secondary variants of both Form Field and backgrounds.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "To keep busy forms as simple as possible, choose a combination of these fills to achieve visual hierarchy. Rather than adding additional background colours, if further visual separation is required, use:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/patterns/forms#headings",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Headings",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/patterns/forms#sections-and-separators",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Sections and separators",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/patterns/forms#progressive-disclosure",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Progressive disclosure",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": "saltText saltText-primary saltLink",
+                            "href": "https://www.saltdesignsystem.com/salt/patterns/forms#multiple-columns",
+                            "target": "_self"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Multiple columns",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "orderedList"
+        },
+        {
+          "content": [
+            {
+              "text": "Choose the combination that best fits:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "The visual priority of the form (i.e., is it the primary focus?).",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "The volume, and type of data, being collected.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "The user familiarity with the form.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "2iSUYLbkSg",
+  "size": null
+}

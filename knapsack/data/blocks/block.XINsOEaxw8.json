@@ -1,0 +1,97 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Read more on our ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/foundations/typography",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Typography Foundation",
+              "type": "text"
+            },
+            {
+              "text": " page.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "_13s3d9k0  pdl72e4 pdl72e5 pdl72e6 pdl72e7 _1loq8ls0 _651s9q5g _651s9q5q _651s9q68 _651s9q6d _651s9q6n _651s9q75 AnchorHeading_link__IPGMO",
+                    "href": "https://www.saltdesignsystem.com/salt/components/text/usage#import",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Import",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "To import Text from the core Salt package, use:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "import {\n  Text,\n  Display1,\n  Display2,\n  Display3,\n  H1,\n  H2,\n  H3,\n  H4,\n  Label,\n} from \"@salt-ds/core\";",
+              "type": "text"
+            }
+          ],
+          "type": "codeBlock"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Props",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "XINsOEaxw8",
+  "size": null
+}

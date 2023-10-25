@@ -1,0 +1,24 @@
+{
+  "blockType": "code-snippet",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "language": "javascript"
+          },
+          "content": [
+            {
+              "text": "<GridLayout as=\"footer\">\n  <GridItem as=\"p\">Lorem Ipsum</GridItem>\n  <GridItem as=\"a\" href=\"mailto:loremipsum@example.com\">\n    loremipsum@example.com\n  </GridItem>\n</GridLayout>",
+              "type": "text"
+            }
+          ],
+          "type": "codeBlock"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "_y1-GDFZGg",
+  "size": null
+}

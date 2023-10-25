@@ -1,0 +1,21 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "text": "Thank you for joining us!",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "A description",
+  "height": 62,
+  "id": "WxD1j7oGB6",
+  "patternId": "banner",
+  "templateId": "react-_W45TtsaSk",
+  "title": "Thank you",
+  "type": "data",
+  "width": 492
+}

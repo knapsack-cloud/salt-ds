@@ -1,0 +1,24 @@
+{
+  "data": {
+    "props": {
+      "type": "button",
+      "variant": "cta"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "View our full range of funds",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default button style for Calls to Action (CTAs)",
+  "height": 41,
+  "id": "Q6PRdYWAph",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "CTA Action",
+  "type": "data",
+  "width": 324
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "props": {
+      "disabled": false,
+      "variant": "primary"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Hello!",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "0Cjs_rupR2",
+  "patternId": "text",
+  "templateId": "react-ugYVENK_N2",
+  "title": "Main",
+  "type": "data"
+}

@@ -1,0 +1,38 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "United Kingdom",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing Dynamic template with United Kingdom selected",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/dynamic_united_kingdom.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 3
+          },
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "qfQ2PHSzv-",
+  "size": "medium"
+}

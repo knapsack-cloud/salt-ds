@@ -1,0 +1,18 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "text": "Your details have been updated successfully.",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "a4KXMasETv",
+  "patternId": "banner",
+  "templateId": "react-_W45TtsaSk",
+  "title": "Main",
+  "type": "data"
+}

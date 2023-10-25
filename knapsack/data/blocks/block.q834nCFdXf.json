@@ -1,0 +1,53 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "Generic format",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Generic format provides a single template of international address input for all countries and regions.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Sometimes, using templates may be difficult due to requirements or product scope. In these cases, use Generic format.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "Example showing Generic format",
+            "src": "https://www.saltdesignsystem.com/img/patterns/international-address-input/generic_format.png",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "q834nCFdXf",
+  "size": "medium"
+}

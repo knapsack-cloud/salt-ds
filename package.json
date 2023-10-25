@@ -155,8 +155,8 @@
     "workerDirectory": "docs/public"
   },
   "devDependencies": {
-    "@knapsack/app": "4.27.0--canary.3057.c23e78d.0",
-    "@knapsack/renderer-react": "4.27.0--canary.3057.c23e78d.0",
+    "@knapsack/app": "^4.30.0",
+    "@knapsack/renderer-react": "^4.30.0",
     "css-loader": "^6.8.1",
     "style-loader": "^3.3.3"
   }

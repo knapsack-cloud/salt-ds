@@ -1,0 +1,26 @@
+{
+  "data": {
+    "props": {
+      "defaultChecked": false,
+      "status": "success",
+      "variant": "secondary"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "WxD1j7oGB6",
+          "patternId": "banner",
+          "templateId": "react-_W45TtsaSk",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "height": 468,
+  "id": "yS21qyQE9B",
+  "patternId": "banner",
+  "templateId": "react-FMCNNz7tYg",
+  "title": "Thank you",
+  "type": "data",
+  "width": 572
+}

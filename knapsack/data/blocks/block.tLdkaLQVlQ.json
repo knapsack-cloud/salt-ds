@@ -1,0 +1,131 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "The Salt Design System team puts people at the heart of its design process. This philosophy is most evident in the team’s user-centered approach to usability research.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Research is vital to our efforts to build a fast, modern and open design system. It means we can collect data about how our system works in practice, then use that data to improve the system and create a better product for users.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "When it comes to research, our key principles are:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Mix methods: we adopt a holistic approach that includes qualitative and quantitative data to best serve evidence-based recommendations to our builders and internal decision makers",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Build to scale: we aim to make it easier to reuse our methods and report results",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "content": [
+            {
+              "text": "The users of our design system are:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Product teams: developers, designers, content teams and beyond all use our design system to create experiences in their applications",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "End-user: individuals or teams that use applications built with Salt",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "content": [
+            {
+              "text": "We consider how the designer and developer interpret the design system and how they adjust it for the end user. The usability of an application is dependent on two parties: our team and the application team using the design system.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "A digram depiciting a relationship between Design System, Creator/Builder and App Usability. The design system, which provides rules, components, patterns and guidance, directly affects the usability of selecting, interpreting and ultimately using those things for creators and builders. Their work in turn directly affects the usability of apps they make, as does the design system, albeit to a lesser extent.",
+            "src": "https://www.saltdesignsystem.com/img/about/research/ds-users.svg",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "tLdkaLQVlQ",
+  "size": null
+}

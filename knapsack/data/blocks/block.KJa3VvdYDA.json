@@ -1,0 +1,54 @@
+{
+  "blockType": "callout",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Need a pattern that's not listed?",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Salt Patterns are under active development. If you would like to propose a new pattern, or have a pattern you would like to contribute to the system, please",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/support-and-contributions/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "contact us directly",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    },
+    "type": "info"
+  },
+  "id": "KJa3VvdYDA",
+  "size": null
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "text": "Thank You!",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "height": 81,
+  "id": "ieYT9IxU78",
+  "patternId": "text",
+  "templateId": "react-h4tOq8qElr",
+  "title": "Summit Thank You",
+  "type": "data",
+  "width": 227
+}

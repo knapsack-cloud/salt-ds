@@ -1,0 +1,24 @@
+{
+  "data": {
+    "props": {
+      "type": "button",
+      "variant": "cta"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "Default button style for Calls to Action (CTAs)",
+  "height": 41,
+  "id": "KyCPvfifwG",
+  "patternId": "button",
+  "templateId": "react-4z44n8JqaB",
+  "title": "CTA",
+  "type": "data",
+  "width": 324
+}

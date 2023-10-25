@@ -1,0 +1,39 @@
+{
+  "data": {
+    "props": {
+      "interactable": false
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "ieYT9IxU78",
+          "patternId": "text",
+          "templateId": "react-h4tOq8qElr",
+          "type": "template-demo"
+        },
+        {
+          "text": "<p>Your presence and input has helped to make this day so valuable for all. Thank you for being a part of our community.</p>\n<p> Want to keep the conversation going and get deeper into <i>your</i> team's situation?</p>",
+          "type": "text"
+        },
+        {
+          "demoId": "jGhpFvJLGB",
+          "patternId": "button",
+          "templateId": "react-4z44n8JqaB",
+          "type": "template-demo"
+        },
+        {
+          "text": "<p><i>This card was built live in Knapsack with Salt DS</i></p>",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "height": 320,
+  "id": "hO1eU0E7fu",
+  "patternId": "card",
+  "templateId": "react-M4VuHaS0vq",
+  "title": "Summit Thank You",
+  "type": "data",
+  "width": 323
+}

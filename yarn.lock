@@ -4800,26 +4800,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@knapsack/app@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/app@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/app-client-api@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/app-client-api@npm:4.30.0"
+  dependencies:
+    "@knapsack/types": 4.30.0
+    "@knapsack/utils": 4.30.0
+    cross-fetch: ^3.1.5
+  checksum: e4e370f6a96526f213ad25770e11bb48a60c54adf86df4f43c462113c01f8da6ef0994f165b684f0bdf85d10adba05a906c56594d925b9d7c96b86b513ed24a4
+  languageName: node
+  linkType: hard
+
+"@knapsack/app@npm:4.30.0, @knapsack/app@npm:^4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/app@npm:4.30.0"
   dependencies:
     "@babel/core": ^7.20.12
     "@babel/preset-env": ^7.20.2
     "@babel/preset-react": ^7.18.6
     "@babel/preset-typescript": ^7.21.0
-    "@knapsack/babel-config": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/babel-config-starter": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/browserslist-config": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/core": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/creator-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/design-token-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/https": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/renderer-client": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/schema-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/types": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/app-client-api": 4.30.0
+    "@knapsack/babel-config": 4.30.0
+    "@knapsack/babel-config-starter": 4.30.0
+    "@knapsack/browserslist-config": 4.30.0
+    "@knapsack/core": 4.30.0
+    "@knapsack/creator-utils": 4.30.0
+    "@knapsack/design-token-utils": 4.30.0
+    "@knapsack/file-utils": 4.30.0
+    "@knapsack/https": 4.30.0
+    "@knapsack/renderer-client": 4.30.0
+    "@knapsack/schema-utils": 4.30.0
+    "@knapsack/types": 4.30.0
+    "@knapsack/utils": 4.30.0
     "@sentry/node": ^7.69.0
     "@sentry/profiling-node": ^1.2.1
     chalk: ^4.1.2
@@ -4836,7 +4848,7 @@ __metadata:
     fs-extra: ^11.0.0
     globby: ^11.1.0
     handlebars: ^4.7.7
-    immer: ^9.0.15
+    immer: ^10.0.3
     internal-ip: ^6.2.0
     isomorphic-fetch: ^2.2.1
     json-schema-to-typescript: ^8.0.0
@@ -4851,13 +4863,13 @@ __metadata:
     ws: ^7.4.4
   bin:
     knapsack: cli.js
-  checksum: 8ceda4940a6dc98d576f3d2c003804a064f15fde88f5d6f1b791fcd406a0a8c28446352077b75d2ac52fca61bf1a0160e003dfdadbd220db1ccdb2a487997980
+  checksum: cb2c8df8705e59e9694ecf5b60909b414db104d9b0a688ff0dac1f25d806cad2f316550c4e0bc39c09564ba5ca4268d11f8daec37b5648f4307786a3b125f7c6
   languageName: node
   linkType: hard
 
-"@knapsack/babel-config-starter@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/babel-config-starter@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/babel-config-starter@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/babel-config-starter@npm:4.30.0"
   dependencies:
     "@babel/cli": ^7.20.7
     "@babel/core": ^7.20.12
@@ -4872,19 +4884,19 @@ __metadata:
     "@babel/preset-react": ^7.18.6
     "@babel/preset-typescript": ^7.21.0
     "@babel/runtime": ^7.20.13
-    "@knapsack/browserslist-config": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/creator-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/browserslist-config": 4.30.0
+    "@knapsack/creator-utils": 4.30.0
+    "@knapsack/file-utils": 4.30.0
     babel-plugin-transform-async-to-promises: ^0.8.18
   bin:
     babel-config-starter: bin.js
-  checksum: 9ef6e27b7c115cdb7389d4e31079486c15df679d3438b8d65bf3d08c3dbf49ce30aa063798cd4ab34d3f960d4c2a42de1c6e6304d1b5c71a12a6570d50a4513e
+  checksum: b835640c3e0057129b5fea518220e34bbe1658f1aa21050e95756c949c54513fa5213cfe3d68dd01faab0701b0fcaf426f14ab035784c587c95fe3a90fd67dbe
   languageName: node
   linkType: hard
 
-"@knapsack/babel-config@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/babel-config@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/babel-config@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/babel-config@npm:4.30.0"
   dependencies:
     "@babel/cli": ^7.20.7
     "@babel/core": ^7.20.12
@@ -4899,46 +4911,46 @@ __metadata:
     "@babel/preset-react": ^7.18.6
     "@babel/preset-typescript": ^7.21.0
     "@babel/runtime": ^7.20.13
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/file-utils": 4.30.0
     babel-plugin-transform-async-to-promises: ^0.8.18
-  checksum: 88a960a745d7fee2c893aee2e22ac957f64f76f236733de45769515a43c5fc31f0972b87e21514716a87a1c4a7f4a227a2d409339e6496f020020060342f97d3
+  checksum: 22c9ff883cf51792e1c7a447ff0b9bc359e1f00f94841dabcaf41269892234f41948aa82e672fd8ec9355a2d34e3019bf70a2e396f300038b446a4a4791628c4
   languageName: node
   linkType: hard
 
-"@knapsack/browserslist-config@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/browserslist-config@npm:4.27.0--canary.3057.c23e78d.0"
-  checksum: b6fef59e410ef5dbc2e3369fddc4f702a8a189419bc1be038399d2d031fd6224f9ad58720d51df1f983e72a14db589461fdd0ba8e19eb59d167939c91d34fc4e
+"@knapsack/browserslist-config@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/browserslist-config@npm:4.30.0"
+  checksum: 9cf5ff5afcdb714bda4a94569bf467136866d513043202478ab172ecb22a726ab5b4f7fcc064769ad430289fbc267675f98e112181df6e63f4eafaeddd0f9344
   languageName: node
   linkType: hard
 
-"@knapsack/color-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/color-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/color-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/color-utils@npm:4.30.0"
   dependencies:
     "@types/lodash": ^4.14.182
     color: ^4.0.1
     lodash: ^4.17.21
-  checksum: 0632da490158bb9fd41bc53d5b06f6f1ce560c1d8bf54554f731b18644ed1ccfb0e525d6a730c87560dd6c509d14a7d5e97a942fc9940669b926bc8417ed3d3c
+  checksum: b2e8df51666b76a5562926337b0002659f7a7cffe160f646cac2d2a57c2729e5f02a6f64c7cf5576922adc01ef51ad228372276ddfdebb5d1c66bff783cd0e41
   languageName: node
   linkType: hard
 
-"@knapsack/core@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/core@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/core@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/core@npm:4.30.0"
   dependencies:
-    "@knapsack/design-token-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/types": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/design-token-utils": 4.30.0
+    "@knapsack/types": 4.30.0
     superstruct: ^0.16.0
-  checksum: 45411b471bdc1b6ed867296ad3ae40e490a23d19de0ab080d856b5951550f13f06f1e878566dd764227355b29df06d0bdf31f0c34d6941f3f09bdd6a9d264bd2
+  checksum: 6dd405220591aeb9033ece04aae3d666777ecdf63bc47ee4f0ccd597dba183d977d8cda97906f1988f374962cefa244ac0d6ee0b79d14d8d43b19a5282fe8a3c
   languageName: node
   linkType: hard
 
-"@knapsack/creator-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/creator-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/creator-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/creator-utils@npm:4.30.0"
   dependencies:
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/file-utils": 4.30.0
     execa: ^5.1.1
     fs-extra: ^11.0.0
     globby: ^11.1.0
@@ -4951,29 +4963,29 @@ __metadata:
     yargs: ^16.2.0
   bin:
     creator-utils: bin.js
-  checksum: b568e19648451c19c30ad26afb53a268eaf1eb49b7e7601974c0926bcf3857dc04bc17282be161c45f0df3f7f63114dfb321b0c962ac409ac8824661e6e6384e
+  checksum: 4a584fe9bf0a5cf7ae6bdce9d01b4bb82afecaff20b20438ce444c770216a9583d67658bc04df6413930ae3bf667db7cc48968c6ae5e27d39e511759745c7193
   languageName: node
   linkType: hard
 
-"@knapsack/design-token-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/design-token-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/design-token-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/design-token-utils@npm:4.30.0"
   dependencies:
-    "@knapsack/color-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/types": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/color-utils": 4.30.0
+    "@knapsack/file-utils": 4.30.0
+    "@knapsack/types": 4.30.0
+    "@knapsack/utils": 4.30.0
     flat: ^5.0.2
-    immer: ^9.0.15
+    immer: ^10.0.3
     lodash: ^4.17.21
     superstruct: ^0.16.0
-  checksum: 6aa06cc9d35fa1f99c8af3ba462b95bb482ca057bc5bcf10a3dc4f4bec299699fa863202a361524eedef9437846f3ae947336982ffdc9de73cb1fed82293057f
+  checksum: c369c475b0ea0971affb58b8483a7a2efe089a6992e42de5365036e99f0f36b96a720ba8d888ec5a69c7aa7f7ab57dd248eee2b488be6ea112f90f093e4e121b
   languageName: node
   linkType: hard
 
-"@knapsack/file-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/file-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/file-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/file-utils@npm:4.30.0"
   dependencies:
     find-up: ^5.0.0
     fs-extra: ^11.0.0
@@ -4982,54 +4994,54 @@ __metadata:
     lodash: ^4.17.21
     prettier: ^2.8.4
     resolve: ^1.22.1
-  checksum: 2894be66e9fdba14fcceb171b5ff565c2f448ecb96922d1e905f3dc522c98f5bd697083e3136866c878e61a5c0b656a7f2274fcac5a4a9d647a8de63818d5f2f
+  checksum: 1f4b597b6650913f1b489ed224d67b6cb54f784ebd387b37138dfbfc3aeab64d206f1b4cd966a72e0cfbd472dbe250ee51b92f893eb6ee5ab9078bcc7a9bfc34
   languageName: node
   linkType: hard
 
-"@knapsack/https@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/https@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/https@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/https@npm:4.30.0"
   dependencies:
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/utils": 4.30.0
     chalk: ^4.1.2
     fs-extra: ^11.0.0
     internal-ip: ^6.2.0
     sudo-prompt: ^9.2.1
     syswide-cas: ^5.3.0
-  checksum: 8dbf5211677e2b32732c094ad41aa9a8eda2ce1490bb535ff841b2e8fe35ed6a160da0cad5c751a938534b3dcae7123c0921123aef368f8b95b1ab98e2ded850
+  checksum: 0008d005c9b50e69d915f4640d88e404b438eb67f85bf944d85c310659f45d4b984fb7dc3a103158962ccc6be27ed408a25db68ea729bae3962be747a1ea50e3
   languageName: node
   linkType: hard
 
-"@knapsack/ks-file-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/ks-file-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/ks-file-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/ks-file-utils@npm:4.30.0"
   dependencies:
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/file-utils": 4.30.0
+    "@knapsack/utils": 4.30.0
     fs-extra: ^11.0.0
-  checksum: 4d5aeb9b1454b722075ff5361d55b949cdee6a28d667e0072e7ca4a7a96ba7492cabce9a22aeb15883bf2acdbc3a35fbfb3ff54dc169b9d91d311c212e3b6a73
+  checksum: bff1f36b5a77de7bcfae4ccf502d4ccc38ff8209a838779c499edccc75554f7aa63a302e74c7febe1ffdce044f63baf711fbd2d625e0902b0edc36e85ba94954
   languageName: node
   linkType: hard
 
-"@knapsack/renderer-client@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/renderer-client@npm:4.27.0--canary.3057.c23e78d.0"
-  checksum: 39150b9f390794d5157ea2859cc8d2a0fc50d561db6488e1a7a050deddc8edb155d980131b6100bac6c05b78a8047a2ec5da444134f47013ad6b30a573308582
+"@knapsack/renderer-client@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/renderer-client@npm:4.30.0"
+  checksum: c5ef32dbeec1a64fdace68f5904c637f29a35fb2aa4b470a51387a0ef1ea8b14eee75b9cc60df5ee6312885ae7fb077b1cf56614947726414c3aa381dc93d724
   languageName: node
   linkType: hard
 
-"@knapsack/renderer-react@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/renderer-react@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/renderer-react@npm:^4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/renderer-react@npm:4.30.0"
   dependencies:
     "@babel/preset-react": ^7.18.6
-    "@knapsack/app": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/creator-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/ks-file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/renderer-webpack-base": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/types": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/app": 4.30.0
+    "@knapsack/creator-utils": 4.30.0
+    "@knapsack/file-utils": 4.30.0
+    "@knapsack/ks-file-utils": 4.30.0
+    "@knapsack/renderer-webpack-base": 4.30.0
+    "@knapsack/types": 4.30.0
+    "@knapsack/utils": 4.30.0
     ejs: ^3.1.9
     react: ^18.2.0
     react-docgen: ^4.1.1
@@ -5037,53 +5049,53 @@ __metadata:
     react-dom: ^18.2.0
     sleep-promise: ^8.0.1
     typescript: ^5.0.4
-  checksum: 67ddfb4a39f6cc740715865142cd5b00b5dca367d8a8d7aed74c4fa6cc87255d97c39fced57511059812d0158f0eebef53b64f7c606e14e9ee7394d68319c38b
+  checksum: 95ba6d632e30870bd75124a77f63c03432804450b01d5445a6eaa70a451cd50bcd1a240e955b7073f1c16beeeb2f88864cf57788ab912b38f5c4406f6bcede1f
   languageName: node
   linkType: hard
 
-"@knapsack/renderer-webpack-base@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/renderer-webpack-base@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/renderer-webpack-base@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/renderer-webpack-base@npm:4.30.0"
   dependencies:
-    "@knapsack/app": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/babel-config-starter": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/file-utils": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/types": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/app": 4.30.0
+    "@knapsack/babel-config-starter": 4.30.0
+    "@knapsack/file-utils": 4.30.0
+    "@knapsack/types": 4.30.0
+    "@knapsack/utils": 4.30.0
     babel-loader: ^9.1.2
     ts-node: ^10.9.1
     webpack: ^5.81.0
     webpack-manifest-plugin: ^4.0.2
-  checksum: 0f1cbb9ed91388ca6ffadc7c7f345cec4bed06e41bd2a6962b5cd65192d0378c6bbe93cce6c26096b10fbaf3632725d58dd1fd3652a4dd91ff1345c63f48c73e
+  checksum: 07119f5d5c8bd8678b3d17a8fd890d2886a4f9f9159c664c094f52c686ac0a22089eab52aaf6169ba3e8a584d2a4ecfad62a755d408b71614a95515f8703323f
   languageName: node
   linkType: hard
 
-"@knapsack/schema-utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/schema-utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/schema-utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/schema-utils@npm:4.30.0"
   dependencies:
     ajv: ^6.6.1
     ajv-keywords: ^3.4.1
     tslib: ^2.2.0
-  checksum: 42f80d9da4a24f28c6453a4bae9e7b9d5be7869b7b37a35ba219b9e60f5a60c1b4454232e9a4219093a108529a2324f3633d0f838c46d25225f55f4797905182
+  checksum: 18b6f0645ee29c69f4de90bbf9eb1c076437ff5f50ff06fa60f7bc2bf2422cbef823234e4100ffae784a5e84cb2ee1e76fdb7248d7d0accf792018cdbccdc8b4
   languageName: node
   linkType: hard
 
-"@knapsack/types@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/types@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/types@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/types@npm:4.30.0"
   dependencies:
-    "@knapsack/utils": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/utils": 4.30.0
     color-string: ^1.6.0
-    immer: ^9.0.15
+    immer: ^10.0.3
     superstruct: ^0.16.0
-  checksum: b187c18e25859c39f21d8693b94fc78ae78dee4878501151cf705a51369e12cf809a7a37c9d857ab19032e97818674390e3cb76d1810a1b6a70e1f6c22ba0ac8
+  checksum: 85de5e216424fbea2c5c2d7e187dd61b9b63cded4e5cedb21b00915707229bb5e81af60406b57edf74df1899b153ea7329335bed71300a586d8fb7286992ac8e
   languageName: node
   linkType: hard
 
-"@knapsack/utils@npm:4.27.0--canary.3057.c23e78d.0":
-  version: 4.27.0--canary.3057.c23e78d.0
-  resolution: "@knapsack/utils@npm:4.27.0--canary.3057.c23e78d.0"
+"@knapsack/utils@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@knapsack/utils@npm:4.30.0"
   dependencies:
     "@types/lodash": ^4.14.182
     "@types/memoizee": ^0.4.8
@@ -5091,6 +5103,7 @@ __metadata:
     date-fns: ^2.29.1
     deepmerge: ^4.2.2
     fp-ts: ^2.13.1
+    just-kebab-case: ^4.2.0
     lodash: ^4.17.21
     memoizee: ^0.4.15
     nanoid: ^3.3.4
@@ -5099,7 +5112,7 @@ __metadata:
     ts-expect: ^1.3.0
     type-fest: ^2.17.0
     uuid: ^8.3.2
-  checksum: e75fdfc718d3910958422e7e2f281f629a36dbb4f88a65c6fc59d6c06b0c3e60e30866930e7a7429330cbe2ff843018101f5f4fc085d7895b63e458131feda89
+  checksum: 50945b04dcc74ff304b3b2a7e63fc037179ea8172c215fbdd9eeb64371fa73b4cc0b701996b1150d3a862d991c58f50de9b9b8a1e903eed4b2bbe100c2d64d41
   languageName: node
   linkType: hard
 
@@ -6664,8 +6677,8 @@ __metadata:
     "@cypress/code-coverage": ^3.10.0
     "@faker-js/faker": ^8.0.0
     "@fontsource/open-sans": ^4.5.13
-    "@knapsack/app": 4.27.0--canary.3057.c23e78d.0
-    "@knapsack/renderer-react": 4.27.0--canary.3057.c23e78d.0
+    "@knapsack/app": ^4.30.0
+    "@knapsack/renderer-react": ^4.30.0
     "@mswjs/data": ^0.13.0
     "@storybook/addon-a11y": ^7.4.5
     "@storybook/addon-actions": ^7.4.5
@@ -19522,10 +19535,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immer@npm:^9.0.15":
-  version: 9.0.21
-  resolution: "immer@npm:9.0.21"
-  checksum: 70e3c274165995352f6936695f0ef4723c52c92c92dd0e9afdfe008175af39fa28e76aafb3a2ca9d57d1fb8f796efc4dd1e1cc36f18d33fa5b74f3dfb0375432
+"immer@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "immer@npm:10.0.3"
+  checksum: 76acabe6f40e752028313762ba477a5d901e57b669f3b8fb406b87b9bb9b14e663a6fbbf5a6d1ab323737dd38f4b2494a4e28002045b88948da8dbf482309f28
   languageName: node
   linkType: hard
 
@@ -21721,6 +21734,13 @@ __metadata:
   version: 5.1.1
   resolution: "just-diff@npm:5.1.1"
   checksum: a6dfd778658c56c0144a22a435dd0a1cae890c4c7a973dbc1c16be0b092cfb5c8ac2d42d608d9713c3fc83683722ecb1585f67c30205f2836bfbe61022bd6999
+  languageName: node
+  linkType: hard
+
+"just-kebab-case@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "just-kebab-case@npm:4.2.0"
+  checksum: 3f8b1041a56bfb7dd9d789ba4da8c244fa10775c7ed900440eb6c9002292caa3dbb6c88792907c830fea328db85a92ba2c302c31dbd740a58d81fd364423db4c
   languageName: node
   linkType: hard
 

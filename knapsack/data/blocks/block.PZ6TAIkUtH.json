@@ -1,0 +1,68 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Lab Components (🚧)",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Stable components do not feature an accompanying symbol in their navigation link titles. You can find them in the",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "@salt-ds/core",
+              "type": "text"
+            },
+            {
+              "text": " package.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "The 🚧 symbol denotes components that are under active development. These may not function as expected and may change due to feedback. You should exercise caution. You can find them in the",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "@salt-ds/lab",
+              "type": "text"
+            },
+            {
+              "text": " package.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "PZ6TAIkUtH",
+  "size": null
+}

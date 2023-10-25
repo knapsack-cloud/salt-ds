@@ -1,0 +1,51 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Expanding the pattern",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "If you find a need to expand the pattern or have feedback, please ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.saltdesignsystem.com/salt/support-and-contributions/index",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "reach out to the team",
+              "type": "text"
+            },
+            {
+              "text": " to the team to discuss.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "VGK7JObzzu",
+  "size": null
+}

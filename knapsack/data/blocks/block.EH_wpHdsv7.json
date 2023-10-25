@@ -1,0 +1,51 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "References",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Grid Layout has a complementary Layout grid style library for Figma. J.P. Morgan employees can enable the Salt Layout Grid library from the Assets panel. External designers can install the library from the",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": "saltText saltText-primary saltLink",
+                    "href": "https://www.figma.com/community/file/1184561028332139679/Salt%3A-Layout-Grid",
+                    "target": "_self"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Salt community page",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "EH_wpHdsv7",
+  "size": null
+}

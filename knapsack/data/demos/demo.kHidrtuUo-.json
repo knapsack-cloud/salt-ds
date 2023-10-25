@@ -1,0 +1,31 @@
+{
+  "data": {
+    "props": {
+      "horizontalAlignment": "stretch",
+      "verticalAlignment": "stretch"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "2AP1yn1awi",
+          "patternId": "banner",
+          "templateId": "react-FMCNNz7tYg",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "wUWP3yYHy1",
+          "patternId": "card",
+          "templateId": "react-M4VuHaS0vq",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "height": 300,
+  "id": "kHidrtuUo-",
+  "patternId": "grid",
+  "templateId": "react-PssHY30Pvg",
+  "title": "Main",
+  "type": "data",
+  "width": 396
+}
