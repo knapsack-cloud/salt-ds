@@ -35,7 +35,7 @@
       "orange": {
         "500": {
           "$type": "color",
-          "$value": "#ea7319",
+          "$value": "{theme.barbie.actionable.primary.background}",
           "$description": ""
         },
         "type": "string",
@@ -74,6 +74,112 @@
     "description": ""
   },
   "theme": {
+    "barbie": {
+      "actionable": {
+        "cta": {
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "primary": {
+          "background": {
+            "$type": "color",
+            "$value": "#ff00cf"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "secondary": {
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground hover": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground active": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "foreground disabled": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        }
+      }
+    },
     "retail": {
       "actionable": {
         "cta": {
@@ -281,112 +387,6 @@
             "$value": "#000000"
           },
           "foreground disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          }
-        }
-      }
-    },
-    "barbie": {
-      "actionable": {
-        "primary": {
-          "foreground": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#ff00cf"
-          },
-          "background hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          }
-        },
-        "cta": {
-          "foreground": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          }
-        },
-        "secondary": {
-          "foreground": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "foreground disabled": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background hover": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background active": {
-            "$type": "color",
-            "$value": "#000000"
-          },
-          "background disabled": {
             "$type": "color",
             "$value": "#000000"
           }
