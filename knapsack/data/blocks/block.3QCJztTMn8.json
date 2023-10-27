@@ -1,0 +1,10 @@
+{
+  "id": "3QCJztTMn8",
+  "data": {
+    "demoId": "color-swatch",
+    "groupIds": ["salt.color"],
+    "tokenType": ""
+  },
+  "size": null,
+  "blockType": "design-tokens"
+}
